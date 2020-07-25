@@ -1,0 +1,172 @@
+
+PALASM4  PAL ASSEMBLER   - MARKET RELEASE 1.5a (8-20-92)
+ (C) - COPYRIGHT ADVANCED MICRO DEVICES INC., 1992
+
+
+TITLE   :GW4208                   AUTHOR :Garrett's Workshop       
+PATTERN :                         COMPANY:02/18/20                 
+REVISION:Zane Kaminski            DATE   :02/18/20                 
+
+PAL22V10
+_GW4208
+
+                   11  1111  1111  2222  2222  2233  3333  3333  4444  
+     0123  4567  8901  2345  6789  0123  4567  8901  2345  6789  0123  
+
+0    ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ---X    
+
+1    ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----    
+2    ----  -X--  ---X  ----  ----  ----  X---  ----  X---  X---  X---    
+3    ----  -X--  ---X  ----  ----  ----  ----  X---  X---  X---  X---    
+4    ----  -X-X  ----  ----  ----  ----  X---  ----  X---  X---  -X--    
+5    ----  -X-X  ----  ----  ----  ----  ----  X---  X---  X---  -X--    
+6    ----  -X-X  ---X  ----  ----  ----  X---  ----  X---  X---  ----    
+7    ----  -X-X  ---X  ----  ----  ----  ----  X---  X---  X---  ----    
+8    XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+9    XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+
+10   ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----    
+11   ----  ---X  ----  ----  X---  ----  ----  ----  ----  ----  ----    
+12   ----  ----  X---  ----  -X--  ----  ---X  ----  ----  ----  ----    
+13   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+14   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+15   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+16   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+17   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+18   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+19   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+20   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+
+21   ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----    
+22   ----  ----  ---X  ----  X---  ----  ----  ----  ----  ----  ----    
+23   ----  ----  -X--  -X--  -X--  ----  ----  ----  ----  ----  ----    
+24   ----  ----  X---  X---  -X--  ----  ----  ----  ----  ----  ----    
+25   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+26   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+27   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+28   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+29   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+30   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+31   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+32   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+33   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+
+34   ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----    
+35   ----  ----  ----  ---X  X---  ----  ----  ----  ----  ----  ----    
+36   ----  ----  ----  ----  -X--  X---  ----  ----  ----  ----  ----    
+37   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+38   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+39   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+40   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+41   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+42   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+43   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+44   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+45   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+46   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+47   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+48   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+
+49   ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----    
+50   ----  ----  ---X  ----  ----  ----  X---  ----  X---  X---  X---    
+51   ----  ----  ---X  ----  ----  ----  ----  X---  X---  X---  X---    
+52   ----  ---X  ----  ----  ----  ----  X---  ----  X---  X---  -X--    
+53   ----  ---X  ----  ----  ----  ----  ----  X---  X---  X---  -X--    
+54   ----  ---X  ---X  ----  ----  ----  X---  ----  X---  X---  ----    
+55   ----  ---X  ---X  ----  ----  ----  ----  X---  X---  X---  ----    
+56   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+57   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+58   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+59   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+60   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+61   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+62   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+63   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+64   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+65   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+
+66   ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----    
+67   ----  ----  ----  ---X  ----  ----  ----  -X--  ----  ----  ----    
+68   ----  ----  ----  ----  ----  ----  X---  X---  ----  ----  ----    
+69   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+70   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+71   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+72   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+73   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+74   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+75   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+76   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+77   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+78   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+79   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+80   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+81   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+82   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+
+83   ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----    
+84   ----  ----  ----  ----  X---  ----  ---X  ----  ----  ----  ----    
+85   ----  ----  X---  ----  -X--  ----  ----  ----  ----  ----  ----    
+86   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+87   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+88   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+89   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+90   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+91   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+92   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+93   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+94   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+95   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+96   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+97   XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+
+98   ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----    
+99   ----  ----  X---  ----  X---  ----  ----  ----  ----  ----  ----    
+100  ----  ----  ----  ----  -X--  ----  ----  ---X  ----  ----  ----    
+101  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+102  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+103  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+104  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+105  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+106  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+107  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+108  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+109  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+110  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+
+111  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----    
+112  ----  ----  ----  X---  X---  ----  ----  ----  ----  ----  ----    
+113  ----  ----  ----  ----  -X--  ----  ----  ----  ---X  ----  ----    
+114  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+115  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+116  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+117  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+118  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+119  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+120  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+121  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+
+122  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----    
+123  ----  ----  ----  ----  X---  X---  ----  ----  ----  ----  ----    
+124  ----  ----  ----  ----  -X--  ----  ----  ----  ----  ---X  ----    
+125  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+126  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+127  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+128  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+129  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+130  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+
+131  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX  XXXX    
+
+ SUMMARY
+ -------
+
+      OUTPUT PINS:           1111112222
+                             4567890123
+    POLARITY FUSES:          -----X---X
+
+      OUTPUT PINS:           1111112222
+                             4567890123
+    REG BYPASS FUSES:        XXXX--XXX-
+
+      TOTAL FUSES BLOWN    = 1667
+

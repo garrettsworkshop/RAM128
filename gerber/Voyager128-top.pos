@@ -1,0 +1,22 @@
+### Module positions - created on Saturday, April 11, 2020 at 03:56:36 AM ###
+### Printed by Pcbnew version kicad (5.1.5-0-10_14)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                PosX       PosY       Rot  Side
+C1        2u2       C_0805             136.3100  -127.8890  180.0000  top
+C2        2u2       C_0805              92.9640  -126.7850   90.0000  top
+C3        2u2       C_0805             120.1810  -110.1090  180.0000  top
+C4        2u2       C_0805             134.7225  -112.7760  180.0000  top
+C5        2u2       C_0805              77.0500  -127.8890    0.0000  top
+C6        2u2       C_0805              78.8670  -119.1650   90.0000  top
+FID1      Fiducial  Fiducial           136.9060  -106.5530  270.0000  top
+FID2      Fiducial  Fiducial            70.3580  -115.1890   90.0000  top
+FID3      Fiducial  Fiducial            78.9940  -106.5530  180.0000  top
+FID4      Fiducial  Fiducial           136.9060  -124.8410    0.0000  top
+FID5      Fiducial  Fiducial            70.3580  -129.5400    0.0000  top
+R1        1k        R_0805             122.8700  -129.5400  180.0000  top
+U1        74HCT245  SOIC-20W_7.5mm      86.4870  -114.3000  180.0000  top
+U2        LY621024  SOP-32_P1.27mm     102.3620  -118.1100  180.0000  top
+U3        GAL22V10  PLCC-28            119.7610  -118.7450    0.0000  top
+U4        74LS125   SOIC-14_3.9mm      133.0960  -118.7450    0.0000  top
+## End
