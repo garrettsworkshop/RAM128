@@ -1,0 +1,116 @@
+Gw4208.pds
+
+PALASM4  PARSER   - MARKET RELEASE 1.5 (7-10-92)
+ (C) - COPYRIGHT ADVANCED MICRO DEVICES INC., 1992
+
+
+                    ***********************************
+                    *     PALASM PARSER LISTING       *
+                    ***********************************
+
+LINE #   |----+----1----+----2----+----3----+----4----+----5----+----6----+
+   1     |;PALASM Design Description
+   2     |
+   3     |;---------------------------------- Declaration Segment ------------
+   4     |TITLE    GW4208
+   5     |PATTERN  
+   6     |REVISION Zane Kaminski
+   7     |AUTHOR   Garrett's Workshop
+   8     |COMPANY  02/18/20
+   9     |DATE     02/18/20
+  10     |
+  11     |CHIP  _GW4208  PAL22V10
+  12     |
+  13     |;---------------------------------- PIN Declarations ---------------
+  14     |NODE 1          GLOBAL                                           ;       
+  15     |PIN  1          /DEVSEL                                          ;       
+  16     |PIN  2          PHI1                                             ;       
+  17     |PIN  3          A0                                               ;       
+  18     |PIN  4          A1                                               ;       
+  19     |PIN  5          A2                                               ;       
+  20     |PIN  6          A3                                               ;       
+  21     |PIN  7          A12                                              ;       
+  22     |PIN  8          A13                                              ;       
+  23     |PIN  9          A14                                              ;       
+  24     |PIN  10         A15                                              ;       
+  25     |PIN  11         /WE                                              ;       
+  26     |PIN  13         /RES                                             ;       
+  27     |PIN  14         RA16                                  REGISTERED ;       
+  28     |PIN  15         RA15                                  REGISTERED ;       
+  29     |PIN  16         RA14                                  REGISTERED ;       
+  30     |PIN  18         RA12                                  COMBINATORIAL ;       
+  31     |PIN  19         /INH                                  COMBINATORIAL ;       
+  32     |PIN  23         /RCS                                  COMBINATORIAL ;       
+  33     |PIN  20         BankAB                                REGISTERED ;       
+  34     |PIN  21         ENRD                                  REGISTERED ;       
+  35     |PIN  22         ENWR                                  REGISTERED ;       
+  36     |PIN  17         PREWR                                 REGISTERED ;       
+  37     |
+  38     |;----------------------------------- Boolean Equation Segment ------
+  39     |EQUATIONS
+  40     |
+  41     |; Registered
+  42     |GLOBAL.RSTF = RES
+  43     |
+  44     |; if A2...
+  45     |RA16 = (A2 * A3) + (/A2 * RA16)
+  46     |RA15 = (A2 * A1) + (/A2 * RA15)
+  47     |RA14 = (A2 * A0) + (/A2 * RA14)
+  48     |
+  49     |; if /A2...
+  50     |BankAB = 	( A2 * BankAB) + 
+  51     |			(/A2 * A3)
+  52     |
+  53     |ENRD =		( A2 * ENRD) + 
+  54     |			(/A2 * /A0 * /A1) + 
+  55     |			(/A2 * A0 * A1)
+  56     |
+  57     |PREWR = 	( A2 * PREWR) + 
+  58     |			(/A2 * A0)
+  59     |
+  60     |ENWR = 		( A2 * ENWR) + 
+  61     |			(/A2 * A0 * PREWR)
+  62     |
+  63     |; Combinational
+  64     |INH = 	A15 * A14 * A12 * ENRD * /WE + 
+  65     |		A15 * A14 * A13 * ENRD * /WE + 
+  66     |		A15 * A14 * A12 * ENWR *  WE + 
+  67     |		A15 * A14 * A13 * ENWR *  WE +
+  68     |		A15 * A14 * A12 * ENRD * ENWR + 
+  69     |		A15 * A14 * A13 * ENRD * ENWR
+  70     |
+  71     |RCS = 	/PHI1 * A15 * A14 * A12 * ENRD * /WE + 
+  72     |		/PHI1 * A15 * A14 * A13 * ENRD * /WE + 
+  73     |		/PHI1 * A15 * A14 * A12 * ENWR *  WE + 
+  74     |		/PHI1 * A15 * A14 * A13 * ENWR *  WE +
+  75     |		/PHI1 * A15 * A14 * A12 * ENRD * ENWR + 
+  76     |		/PHI1 * A15 * A14 * A13 * ENRD * ENWR
+  77     |
+  78     |RA12 = 	/A13 * BankAB + A13 * A12
+
+ %% PARSE %%    No errors.  No warnings.
+
+ %% PARSE %%    File processed successfully.    File:  Gw4208.pds
+PALASM4  PAL ASSEMBLER   - MARKET RELEASE 1.5a (8-20-92)
+ (C) - COPYRIGHT ADVANCED MICRO DEVICES INC., 1992
+
+FILE  Gw4208.pds
+TITLE  GW4208
+Equation being processed for output ==>>  RA16
+Equation being processed for output ==>>  RA15
+Equation being processed for output ==>>  RA14
+Equation being processed for output ==>>  PREWR
+Equation being processed for output ==>>  RA12
+Equation being processed for output ==>>  INH
+Equation being processed for output ==>>  BANKAB
+Equation being processed for output ==>>  ENRD
+Equation being processed for output ==>>  ENWR
+Equation being processed for output ==>>  RCS
+Equation being processed for output ==>> GLOBAL.RSTF
+The fuse plot is stored in ===>Gw4208.XPT
+The JEDEC is stored in ===>Gw4208.JED
+
+ %%  PAL ASSEMBLER  %% Maximum memory allocated was: 18346 bytes.
+
+ %%  PAL ASSEMBLER  %% File Processed Successfully.  File: Gw4208.pds.
+ %%  PAL ASSEMBLER  %% ERROR count: 0  WARNING count: 0

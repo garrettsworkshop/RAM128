@@ -1,0 +1,78 @@
+;PALASM Design Description
+
+;---------------------------------- Declaration Segment ------------
+TITLE    GW4208
+PATTERN  
+REVISION Zane Kaminski
+AUTHOR   Garrett's Workshop
+COMPANY  02/18/20
+DATE     02/18/20
+
+CHIP  _GW4208  PAL22V10
+
+;---------------------------------- PIN Declarations ---------------
+NODE 1          GLOBAL                                           ;       
+PIN  1          /DEVSEL                                          ;       
+PIN  2          PHI1                                             ;       
+PIN  3          A0                                               ;       
+PIN  4          A1                                               ;       
+PIN  5          A2                                               ;       
+PIN  6          A3                                               ;       
+PIN  7          A12                                              ;       
+PIN  8          A13                                              ;       
+PIN  9          A14                                              ;       
+PIN  10         A15                                              ;       
+PIN  11         /WE                                              ;       
+PIN  13         /RES                                             ;       
+PIN  14         RA16                                  REGISTERED ;       
+PIN  15         RA15                                  REGISTERED ;       
+PIN  16         RA14                                  REGISTERED ;       
+PIN  18         RA12                                  COMBINATORIAL ;       
+PIN  19         /INH                                  COMBINATORIAL ;       
+PIN  23         /RCS                                  COMBINATORIAL ;       
+PIN  20         BankAB                                REGISTERED ;       
+PIN  21         ENRD                                  REGISTERED ;       
+PIN  22         ENWR                                  REGISTERED ;       
+PIN  17         PREWR                                 REGISTERED ;       
+
+;----------------------------------- Boolean Equation Segment ------
+EQUATIONS
+
+; Registered
+GLOBAL.RSTF = RES
+
+; if A2...
+RA16 = (A2 * A3) + (/A2 * RA16)
+RA15 = (A2 * A1) + (/A2 * RA15)
+RA14 = (A2 * A0) + (/A2 * RA14)
+
+; if /A2...
+BankAB = 	( A2 * BankAB) + 
+			(/A2 * A3)
+
+ENRD =		( A2 * ENRD) + 
+			(/A2 * /A0 * /A1) + 
+			(/A2 * A0 * A1)
+
+PREWR = 	( A2 * PREWR) + 
+			(/A2 * A0)
+
+ENWR = 		( A2 * ENWR) + 
+			(/A2 * A0 * PREWR)
+
+; Combinational
+INH = 	A15 * A14 * A12 * ENRD * /WE + 
+		A15 * A14 * A13 * ENRD * /WE + 
+		A15 * A14 * A12 * ENWR *  WE + 
+		A15 * A14 * A13 * ENWR *  WE +
+		A15 * A14 * A12 * ENRD * ENWR + 
+		A15 * A14 * A13 * ENRD * ENWR
+
+RCS = 	/PHI1 * A15 * A14 * A12 * ENRD * /WE + 
+		/PHI1 * A15 * A14 * A13 * ENRD * /WE + 
+		/PHI1 * A15 * A14 * A12 * ENWR *  WE + 
+		/PHI1 * A15 * A14 * A13 * ENWR *  WE +
+		/PHI1 * A15 * A14 * A12 * ENRD * ENWR + 
+		/PHI1 * A15 * A14 * A13 * ENRD * ENWR
+
+RA12 = 	/A13 * BankAB + A13 * A12
