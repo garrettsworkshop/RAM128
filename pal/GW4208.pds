@@ -64,15 +64,11 @@ ENWR = 		( A2 * ENWR) +
 INH = 	A15 * A14 * A12 * ENRD * /WE + 
 		A15 * A14 * A13 * ENRD * /WE + 
 		A15 * A14 * A12 * ENWR *  WE + 
-		A15 * A14 * A13 * ENWR *  WE +
-		A15 * A14 * A12 * ENRD * ENWR + 
-		A15 * A14 * A13 * ENRD * ENWR
+		A15 * A14 * A13 * ENWR *  WE
 
 RCS = 	/PHI1 * A15 * A14 * A12 * ENRD * /WE + 
 		/PHI1 * A15 * A14 * A13 * ENRD * /WE + 
 		/PHI1 * A15 * A14 * A12 * ENWR *  WE + 
-		/PHI1 * A15 * A14 * A13 * ENWR *  WE +
-		/PHI1 * A15 * A14 * A12 * ENRD * ENWR + 
-		/PHI1 * A15 * A14 * A13 * ENRD * ENWR
+		/PHI1 * A15 * A14 * A13 * ENWR *  WE
 
 RA12 = 	/A13 * BankAB + A13 * A12
