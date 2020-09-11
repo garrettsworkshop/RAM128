@@ -1201,17 +1201,6 @@ $EndComp
 Wire Bus Line
 	1850 4450 650  4450
 $Comp
-L 74xx:74LS174 U3
-U 1 1 621250C8
-P 5400 5650
-F 0 "U3" H 5400 6531 50  0000 C CNN
-F 1 "74LS174" H 5400 6440 50  0000 C CNN
-F 2 "stdpads:TSSOP-16_4.4x5mm_P0.65mm" H 5400 5650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS174" H 5400 5650 50  0001 C CNN
-	1    5400 5650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0118
 U 1 1 61D31F3A
 P 5400 4950
@@ -1225,30 +1214,30 @@ $EndComp
 $Comp
 L power:GND #PWR0116
 U 1 1 61D2A77C
-P 5400 6450
-F 0 "#PWR0116" H 5400 6200 50  0001 C CNN
-F 1 "GND" H 5400 6300 50  0000 C CNN
-F 2 "" H 5400 6450 50  0001 C CNN
-F 3 "" H 5400 6450 50  0001 C CNN
-	1    5400 6450
+P 5400 6550
+F 0 "#PWR0116" H 5400 6300 50  0001 C CNN
+F 1 "GND" H 5400 6400 50  0000 C CNN
+F 2 "" H 5400 6550 50  0001 C CNN
+F 3 "" H 5400 6550 50  0001 C CNN
+	1    5400 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U6
 U 3 1 61A057BE
-P 4200 5950
-F 0 "U6" H 4200 5950 50  0000 C CNN
-F 1 "74LS08" H 4200 6150 50  0000 C CNN
-F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 4200 5950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4200 5950 50  0001 C CNN
-	3    4200 5950
+P 4200 6150
+F 0 "U6" H 4200 6150 50  0000 C CNN
+F 1 "74LS08" H 4200 6350 50  0000 C CNN
+F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 4200 6150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4200 6150 50  0001 C CNN
+	3    4200 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 5950 4900 5950
-Text Label 3900 6050 2    50   ~ 0
+	4500 6150 4900 6150
+Text Label 3900 6250 2    50   ~ 0
 ~DEVSEL~
-Text Label 3900 5850 2    50   ~ 0
+Text Label 3900 6050 2    50   ~ 0
 A2
 Text Label 4900 5450 2    50   ~ 0
 A3
@@ -1256,9 +1245,9 @@ Text Label 4900 5350 2    50   ~ 0
 A1
 Text Label 4900 5250 2    50   ~ 0
 A0
-Text Label 4900 5950 2    50   ~ 0
-~DEV~andA2
 Text Label 4900 6150 2    50   ~ 0
+~DEV~andA2
+Text Label 4900 6250 2    50   ~ 0
 ~RES~
 Text Label 6100 5450 2    50   ~ 0
 RA16
@@ -1418,17 +1407,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7350 4200 50  0001 C CNN
 	4    7350 4200
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74xx:74LS08 U8
-U 3 1 61A685E7
-P 7350 4600
-F 0 "U8" H 7350 4600 50  0000 C CNN
-F 1 "74LS08" H 7350 4800 50  0000 C CNN
-F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 7350 4600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7350 4600 50  0001 C CNN
-	3    7350 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9900 5000 10200 5000
 $Comp
@@ -1485,41 +1463,20 @@ Text Label 7050 3600 2    50   ~ 0
 A13
 Text Label 7050 3800 2    50   ~ 0
 A12
-Wire Wire Line
-	8250 2800 8250 2900
 Text Label 7650 3000 2    50   ~ 0
 ~DEVSEL~
-Text Label 8650 3000 2    50   ~ 0
-~RES~
-Text Label 8650 2800 2    50   ~ 0
-~DEV~and~A2~
-Text Label 8650 2200 2    50   ~ 0
-A3
 Text Label 8650 2300 2    50   ~ 0
 A0
-Text Label 8650 2100 2    50   ~ 0
+Text Label 8650 2200 2    50   ~ 0
 ~A0XOR1~
-Text Label 8650 2500 2    50   ~ 0
+Text Label 8250 2400 0    50   ~ 0
 ENWR1A0
 Text Label 7650 2400 2    50   ~ 0
 ENWR1
 Text Label 7650 2600 2    50   ~ 0
 A0
 Wire Wire Line
-	8250 2500 8650 2500
-Wire Wire Line
-	8650 2800 8250 2800
-$Comp
-L 74xx:74LS08 U7
-U 3 1 619B4940
-P 7950 2500
-F 0 "U7" H 7950 2500 50  0000 C CNN
-F 1 "74LS08" H 7950 2700 50  0000 C CNN
-F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 7950 2500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7950 2500 50  0001 C CNN
-	3    7950 2500
-	1    0    0    -1  
-$EndComp
+	8250 2400 8650 2400
 $Comp
 L 74xx:74LS08 U6
 U 4 1 619D9080
@@ -1610,28 +1567,17 @@ A2
 Wire Wire Line
 	7650 1800 7650 2000
 Wire Wire Line
-	8250 2100 8650 2100
+	8250 2200 8650 2200
 Wire Wire Line
 	7050 2800 7650 2800
-Text Label 9650 2200 0    50   ~ 0
+Text Label 9650 2100 0    50   ~ 0
 BankAB
 Text Label 9650 2300 0    50   ~ 0
 ENWR1
-Text Label 9650 2100 0    50   ~ 0
+Text Label 9650 2200 0    50   ~ 0
 ENRD
-Text Label 9650 2500 0    50   ~ 0
+Text Label 9650 2400 0    50   ~ 0
 ENWR
-$Comp
-L 74xx:74LS174 U4
-U 1 1 62125B94
-P 9150 2500
-F 0 "U4" H 9150 3381 50  0000 C CNN
-F 1 "74LS174" H 9150 3290 50  0000 C CNN
-F 2 "stdpads:TSSOP-16_4.4x5mm_P0.65mm" H 9150 2500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS174" H 9150 2500 50  0001 C CNN
-	1    9150 2500
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR0119
 U 1 1 61D326E3
@@ -1644,17 +1590,6 @@ F 3 "" H 9150 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0115
-U 1 1 61D2A2FE
-P 9150 3300
-F 0 "#PWR0115" H 9150 3050 50  0001 C CNN
-F 1 "GND" H 9150 3150 50  0000 C CNN
-F 2 "" H 9150 3300 50  0001 C CNN
-F 3 "" H 9150 3300 50  0001 C CNN
-	1    9150 3300
-	1    0    0    -1  
-$EndComp
-$Comp
 L 74xx:74LS08 U8
 U 1 1 61A43FF7
 P 7350 3300
@@ -1663,17 +1598,6 @@ F 1 "74LS08" H 7350 3500 50  0000 C CNN
 F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 7350 3300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7350 3300 50  0001 C CNN
 	1    7350 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS08 U8
-U 2 1 61A46228
-P 7350 3700
-F 0 "U8" H 7350 3700 50  0000 C CNN
-F 1 "74LS08" H 7350 3900 50  0000 C CNN
-F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 7350 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7350 3700 50  0001 C CNN
-	2    7350 3700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1708,6 +1632,207 @@ Wire Wire Line
 	7650 3600 7650 3700
 Text Label 8250 3500 0    50   ~ 0
 RA12
+$Comp
+L 74xx:74LS273 U3
+U 1 1 5FA968ED
+P 9150 2600
+F 0 "U3" H 9150 3581 50  0000 C CNN
+F 1 "74LS273" H 9150 3490 50  0000 C CNN
+F 2 "stdpads:TSSOP-20_4.4x6.5mm_P0.65mm" H 9150 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS273" H 9150 2600 50  0001 C CNN
+	1    9150 2600
+	1    0    0    -1  
+$EndComp
+Text Label 8650 3000 2    50   ~ 0
+~DEV~and~A2~
+Wire Wire Line
+	8650 3000 8250 3000
+Text Label 8650 3100 2    50   ~ 0
+~RES~
+$Comp
+L power:GND #PWR0115
+U 1 1 61D2A2FE
+P 9150 3400
+F 0 "#PWR0115" H 9150 3150 50  0001 C CNN
+F 1 "GND" H 9150 3250 50  0000 C CNN
+F 2 "" H 9150 3400 50  0001 C CNN
+F 3 "" H 9150 3400 50  0001 C CNN
+	1    9150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2900 8250 3000
+$Comp
+L 74xx:74LS273 U4
+U 1 1 5FB03A58
+P 5400 5750
+F 0 "U4" H 5400 6731 50  0000 C CNN
+F 1 "74LS273" H 5400 6640 50  0000 C CNN
+F 2 "stdpads:TSSOP-20_4.4x6.5mm_P0.65mm" H 5400 5750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS273" H 5400 5750 50  0001 C CNN
+	1    5400 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5550 4900 5650
+Connection ~ 4900 5650
+Wire Wire Line
+	4900 5650 4900 5750
+Connection ~ 4900 5750
+Wire Wire Line
+	4900 5750 4900 5850
+Connection ~ 4900 5850
+Wire Wire Line
+	4900 5850 4900 5950
+$Comp
+L power:GND #PWR0112
+U 1 1 5FB6A7F4
+P 4800 5550
+F 0 "#PWR0112" H 4800 5300 50  0001 C CNN
+F 1 "GND" H 4800 5400 50  0000 C CNN
+F 2 "" H 4800 5550 50  0001 C CNN
+F 3 "" H 4800 5550 50  0001 C CNN
+	1    4800 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5550 4900 5550
+Connection ~ 4900 5550
+$Comp
+L power:GND #PWR0125
+U 1 1 5FB82124
+P 8500 2500
+F 0 "#PWR0125" H 8500 2250 50  0001 C CNN
+F 1 "GND" H 8500 2350 50  0000 C CNN
+F 2 "" H 8500 2500 50  0001 C CNN
+F 3 "" H 8500 2500 50  0001 C CNN
+	1    8500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 2600 8600 2600
+Wire Wire Line
+	8650 2800 8600 2800
+Wire Wire Line
+	8600 2800 8600 2700
+Connection ~ 8600 2600
+Wire Wire Line
+	8650 2700 8600 2700
+Connection ~ 8600 2700
+Wire Wire Line
+	8600 2700 8600 2600
+Wire Wire Line
+	8500 2500 8600 2500
+$Comp
+L 74xx:74LS08 U8
+U 2 1 61A46228
+P 7350 3700
+F 0 "U8" H 7350 3700 50  0000 C CNN
+F 1 "74LS08" H 7350 3900 50  0000 C CNN
+F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 7350 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7350 3700 50  0001 C CNN
+	2    7350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U8
+U 3 1 61A685E7
+P 7350 4600
+F 0 "U8" H 7350 4600 50  0000 C CNN
+F 1 "74LS08" H 7350 4800 50  0000 C CNN
+F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 7350 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7350 4600 50  0001 C CNN
+	3    7350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U7
+U 2 1 5FCFF581
+P 7950 2500
+F 0 "U7" H 7950 2500 50  0000 C CNN
+F 1 "74LS08" H 7950 2700 50  0000 C CNN
+F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 7950 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7950 2500 50  0001 C CNN
+	2    7950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U7
+U 1 1 619B4940
+P 10100 3500
+F 0 "U7" H 10100 3500 50  0000 C CNN
+F 1 "74LS08" H 10100 3700 50  0000 C CNN
+F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 10100 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 10100 3500 50  0001 C CNN
+	1    10100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U7
+U 3 1 5FD0EE1D
+P 10100 3900
+F 0 "U7" H 10100 3900 50  0000 C CNN
+F 1 "74LS08" H 10100 4100 50  0000 C CNN
+F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 10100 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 10100 3900 50  0001 C CNN
+	3    10100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U7
+U 4 1 5FD11853
+P 10100 4300
+F 0 "U7" H 10100 4300 50  0000 C CNN
+F 1 "74LS08" H 10100 4500 50  0000 C CNN
+F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 10100 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 10100 4300 50  0001 C CNN
+	4    10100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 5FD15737
+P 9800 4400
+F 0 "#PWR0127" H 9800 4150 50  0001 C CNN
+F 1 "GND" H 9800 4250 50  0000 C CNN
+F 2 "" H 9800 4400 50  0001 C CNN
+F 3 "" H 9800 4400 50  0001 C CNN
+	1    9800 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 4400 9800 4200
+Connection ~ 9800 4400
+Connection ~ 9800 3600
+Wire Wire Line
+	9800 3600 9800 3400
+Connection ~ 9800 3800
+Wire Wire Line
+	9800 3800 9800 3600
+Connection ~ 9800 4000
+Wire Wire Line
+	9800 4000 9800 3800
+Connection ~ 9800 4200
+Wire Wire Line
+	9800 4200 9800 4000
+NoConn ~ 10400 3500
+NoConn ~ 10400 3900
+NoConn ~ 10400 4300
+Wire Wire Line
+	8250 2400 8250 2500
+Wire Wire Line
+	8650 2500 8600 2500
+Wire Wire Line
+	8600 2500 8600 2600
+Connection ~ 8600 2500
+NoConn ~ 9650 2500
+NoConn ~ 9650 2600
+NoConn ~ 9650 2700
+NoConn ~ 9650 2800
+Wire Wire Line
+	8250 2100 8250 2200
+Text Label 8650 2100 2    50   ~ 0
+A3
 Wire Bus Line
 	3350 2750 3350 3450
 Wire Bus Line
