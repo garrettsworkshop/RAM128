@@ -4,9 +4,9 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "GR8RAM"
-Date "2019-10-13"
-Rev "0.9"
+Title "RAM128"
+Date "2020-09-11"
+Rev "1.0"
 Comp "Garrett's Workshop"
 Comment1 ""
 Comment2 ""
