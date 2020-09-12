@@ -1,4 +1,4 @@
-update=Friday, September 11, 2020 at 03:47:13 PM
+update=Friday, September 11, 2020 at 11:35:15 PM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Voyager128.net
+LastNetListRead=RAM128.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -88,7 +88,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.07619999999999999
 SolderMaskMinWidth=0.127
 SolderPasteClearance=-0.03809999999999999
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
