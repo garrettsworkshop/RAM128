@@ -1,9 +1,9 @@
-### Module positions - created on Tuesday, September 29, 2020 at 07:45:02 PM ###
+### Module positions - created on Wednesday, September 30, 2020 at 01:12:32 AM ###
 ### Printed by Pcbnew version kicad (5.1.5-0-10_14)
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val            Package                          PosX       PosY       Rot  Side
-C1        10u            C_0603                       104.3500  -112.4000    0.0000  top
+C1        2u2            C_0603                       104.3500  -112.4000    0.0000  top
 C2        2u2            C_0603                        86.0500  -124.8000   90.0000  top
 C3        2u2            C_0603                       122.3000  -107.1000  180.0000  top
 C4        2u2            C_0603                       113.4500  -107.1000  180.0000  top
@@ -21,14 +21,14 @@ FID3      Fiducial       Fiducial                     136.9060  -106.5530  270.0
 FID4      Fiducial       Fiducial                     136.9060  -124.8410    0.0000  top
 R1        3k3            R_0805                       118.3000  -125.5500  180.0000  top
 U1        621024         TSOP-I-32_18.4x8mm_P0.5mm     92.1000  -112.1500  180.0000  top
-U2        74HCT245       TSSOP-20_4.4x6.5mm_P0.65mm    81.6750  -122.6000  180.0000  top
-U3        74HCT273       TSSOP-20_4.4x6.5mm_P0.65mm   120.1000  -111.4750  270.0000  top
-U4        74HCT273       TSSOP-20_4.4x6.5mm_P0.65mm   111.2500  -111.4750  270.0000  top
-U5        74HCT04        TSSOP-14_4.4x5mm_P0.65mm      89.8500  -122.6000  180.0000  top
-U6        74HCT08        TSSOP-14_4.4x5mm_P0.65mm      97.1500  -122.6000  180.0000  top
-U7        74HCT08        TSSOP-14_4.4x5mm_P0.65mm     104.4500  -122.6000  180.0000  top
-U8        74HCT08        TSSOP-14_4.4x5mm_P0.65mm     111.7500  -122.6000  180.0000  top
-U9        74HCT08        TSSOP-14_4.4x5mm_P0.65mm     122.8000  -122.6000  180.0000  top
-U10       74HCT32        TSSOP-14_4.4x5mm_P0.65mm     128.6000  -112.4500  270.0000  top
+U2        74HCT245PW     TSSOP-20_4.4x6.5mm_P0.65mm    81.6750  -122.6000  180.0000  top
+U3        74HCT273PW     TSSOP-20_4.4x6.5mm_P0.65mm   120.1000  -111.4750  270.0000  top
+U4        74HCT273PW     TSSOP-20_4.4x6.5mm_P0.65mm   111.2500  -111.4750  270.0000  top
+U5        74HCT04PW      TSSOP-14_4.4x5mm_P0.65mm      89.8500  -122.6000  180.0000  top
+U6        74HCT08PW      TSSOP-14_4.4x5mm_P0.65mm      97.1500  -122.6000  180.0000  top
+U7        74HCT32PW      TSSOP-14_4.4x5mm_P0.65mm     104.4500  -122.6000  180.0000  top
+U8        74HCT08PW      TSSOP-14_4.4x5mm_P0.65mm     111.7500  -122.6000  180.0000  top
+U9        74HCT08PW      TSSOP-14_4.4x5mm_P0.65mm     122.8000  -122.6000  180.0000  top
+U10       74HCT32PW      TSSOP-14_4.4x5mm_P0.65mm     128.6000  -112.4500  270.0000  top
 U11       74AHCT1G126GW  SOT-353                      118.3000  -122.6500   90.0000  top
 ## End
