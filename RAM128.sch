@@ -995,8 +995,6 @@ F 3 "" H 1450 1800 50  0001 C CNN
 $EndComp
 Wire Bus Line
 	1850 4450 650  4450
-Text Label 8950 5300 2    50   ~ 0
-~INH~
 Text Label 5800 4600 2    50   ~ 0
 R~W~
 Text Label 5800 4400 2    50   ~ 0
@@ -1124,8 +1122,6 @@ F 4 "C8181" H 6100 4500 50  0001 C CNN "LCSC Part"
 	4    6100 4500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8650 5300 8950 5300
 $Comp
 L power:GND #PWR0126
 U 1 1 61DE1282
@@ -1139,7 +1135,6 @@ F 3 "" H 7800 5300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8650 5300 8600 5300
-Connection ~ 8650 5300
 $Comp
 L GW_Logic:741G126GW U11
 U 1 1 61E07386
@@ -1160,7 +1155,7 @@ Wire Wire Line
 Connection ~ 7800 5300
 Wire Wire Line
 	7800 5100 7600 5100
-Text Label 5800 6100 2    50   ~ 0
+Text Label 7850 6050 2    50   ~ 0
 INHOE
 Text Label 5800 5200 2    50   ~ 0
 A14
@@ -1425,52 +1420,6 @@ F 4 "C8181" H 6100 4900 50  0001 C CNN "LCSC Part"
 	3    6100 4900
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74xx:74LS32 U7
-U 3 1 5FD0EE1D
-P 9950 5700
-F 0 "U7" H 9950 5700 50  0000 C CNN
-F 1 "74HCT32PW" H 9950 5900 50  0000 C CNN
-F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 9950 5700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 9950 5700 50  0001 C CNN
-F 4 "C8181" H 9950 5700 50  0001 C CNN "LCSC Part"
-	3    9950 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS32 U7
-U 4 1 5FD11853
-P 9950 6100
-F 0 "U7" H 9950 6100 50  0000 C CNN
-F 1 "74HCT32PW" H 9950 6300 50  0000 C CNN
-F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 9950 6100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 9950 6100 50  0001 C CNN
-F 4 "C8181" H 9950 6100 50  0001 C CNN "LCSC Part"
-	4    9950 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0127
-U 1 1 5FD15737
-P 9650 6200
-F 0 "#PWR0127" H 9650 5950 50  0001 C CNN
-F 1 "GND" H 9650 6050 50  0000 C CNN
-F 2 "" H 9650 6200 50  0001 C CNN
-F 3 "" H 9650 6200 50  0001 C CNN
-	1    9650 6200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 6200 9650 6000
-Connection ~ 9650 6200
-Connection ~ 9650 5800
-Wire Wire Line
-	9650 5800 9650 5600
-Connection ~ 9650 6000
-Wire Wire Line
-	9650 6000 9650 5800
-NoConn ~ 10250 5700
-NoConn ~ 10250 6100
 Wire Wire Line
 	8400 3050 8400 3150
 Wire Wire Line
@@ -1569,27 +1518,8 @@ F 4 "C132266" H 8100 3650 50  0001 C CNN "LCSC Part"
 	2    8100 3650
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74xx:74LS08 U6
-U 3 1 61A057BE
-P 9950 5300
-F 0 "U6" H 9950 5300 50  0000 C CNN
-F 1 "74HCT08PW" H 9950 5500 50  0000 C CNN
-F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 9950 5300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 9950 5300 50  0001 C CNN
-F 4 "C8181" H 9950 5300 50  0001 C CNN "LCSC Part"
-	3    9950 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 5200 9650 5400
-Wire Wire Line
-	9650 5400 9650 5600
-Connection ~ 9650 5400
-Connection ~ 9650 5600
 Wire Wire Line
 	7200 2150 7200 2350
-NoConn ~ 10250 5300
 Text Label 8000 2050 2    50   ~ 0
 ~DEVSEL~
 $Comp
@@ -1761,6 +1691,66 @@ F 3 "" H 2050 2650 50  0001 C CNN
 $EndComp
 Wire Bus Line
 	4550 2200 1750 2200
+$Comp
+L 74xx:74LS08 U6
+U 3 1 62D8945C
+P 5500 6100
+F 0 "U6" H 5500 6100 50  0000 C CNN
+F 1 "74HCT08PW" H 5500 6300 50  0000 C CNN
+F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 5500 6100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 5500 6100 50  0001 C CNN
+F 4 "C8181" H 5500 6100 50  0001 C CNN "LCSC Part"
+	3    5500 6100
+	1    0    0    -1  
+$EndComp
+Text Label 5200 6200 2    50   ~ 0
+DMAin
+Text Label 9600 6250 0    50   ~ 0
+DMAout
+$Comp
+L 74xx:74LS32 U7
+U 3 2 62D952DF
+P 8550 6150
+F 0 "U7" H 8550 6150 50  0000 C CNN
+F 1 "74HCT32PW" H 8550 6350 50  0000 C CNN
+F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 8550 6150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 8550 6150 50  0001 C CNN
+F 4 "C8181" H 8550 6150 50  0001 C CNN "LCSC Part"
+	3    8550 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U7
+U 4 2 62D9A4DE
+P 9150 6250
+F 0 "U7" H 9150 6250 50  0000 C CNN
+F 1 "74HCT32PW" H 9150 6450 50  0000 C CNN
+F 2 "stdpads:TSSOP-14_4.4x5mm_P0.65mm" H 9150 6250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 9150 6250 50  0001 C CNN
+F 4 "C8181" H 9150 6250 50  0001 C CNN "LCSC Part"
+	4    9150 6250
+	1    0    0    -1  
+$EndComp
+Connection ~ 8650 5300
+Wire Wire Line
+	8650 5300 8950 5300
+Text Label 8950 5300 2    50   ~ 0
+~INH~
+Text Label 5200 6000 2    50   ~ 0
+INHOE
+$Comp
+L power:GND #PWR?
+U 1 1 62DFF365
+P 8850 6350
+F 0 "#PWR?" H 8850 6100 50  0001 C CNN
+F 1 "GND" H 8850 6200 50  0000 C CNN
+F 2 "" H 8850 6350 50  0001 C CNN
+F 3 "" H 8850 6350 50  0001 C CNN
+	1    8850 6350
+	1    0    0    -1  
+$EndComp
+Text Label 7850 6250 2    50   ~ 0
+DMAin
 Wire Bus Line
 	3150 2650 3150 3350
 Wire Bus Line
