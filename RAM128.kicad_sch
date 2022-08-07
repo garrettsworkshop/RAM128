@@ -1643,7 +1643,7 @@
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type background))
         )
-        (pin no_connect line (at 10.16 -5.08 180) (length 2.54) hide
+        (pin no_connect line (at 10.16 -5.08 180) (length 2.54)
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -2302,6 +2302,7 @@
   )
 
   (no_connect (at 254 36.83) (uuid 123968c6-74e7-4754-8c36-08ea08e42555))
+  (no_connect (at 87.63 90.17) (uuid 162cb491-a204-4461-a9be-e1ea70c18a27))
   (no_connect (at 248.92 80.01) (uuid 212bf70c-2324-47d9-8700-59771063baeb))
   (no_connect (at 254 34.29) (uuid 3e3d55c8-e0ea-48fb-8421-a84b7cb7055b))
   (no_connect (at 248.92 82.55) (uuid 44035e53-ff94-45ad-801f-55a1ce042a0d))
@@ -5914,7 +5915,7 @@
     (uuid 00000000-0000-0000-0000-000061c2b655)
     (property "Reference" "U1" (id 0) (at 97.79 60.96 0))
     (property "Value" "621024" (id 1) (at 97.79 85.09 90))
-    (property "Footprint" "stdpads:SOP-32_P1.27mm" (id 2) (at 97.79 85.09 0)
+    (property "Footprint" "stdpads:SOP-32_450mil" (id 2) (at 97.79 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.futurlec.com/Datasheet/Memory/628128.pdf" (id 3) (at 97.79 85.09 0)
@@ -6601,7 +6602,7 @@
       (reference "SW1") (unit 1) (value "DMA/ROM") (footprint "stdpads:SW_DIP_SPSTx02_Slide_DSHP02TS_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000061c2b655"
-      (reference "U1") (unit 1) (value "621024") (footprint "stdpads:SOP-32_P1.27mm")
+      (reference "U1") (unit 1) (value "621024") (footprint "stdpads:SOP-32_450mil")
     )
     (path "/00000000-0000-0000-0000-00005f96867c"
       (reference "U2") (unit 1) (value "74HCT245PW") (footprint "stdpads:TSSOP-20_4.4x6.5mm_P0.65mm")
