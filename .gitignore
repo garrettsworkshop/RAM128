@@ -28,3 +28,4 @@ RAM128-backups/*
 
 *.DS_Store
 Documentation/~$4208BManual.docx
+*.kicad_prl
