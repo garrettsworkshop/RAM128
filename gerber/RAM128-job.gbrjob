@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "7.0.1-0"
     },
-    "CreationDate": "2023-12-07T05:07:41-05:00"
+    "CreationDate": "2023-12-07T05:41:28-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "RAM128",
       "GUID": "52414d31-3238-42e6-9b69-6361645f7063",
-      "Revision": "1.1"
+      "Revision": "1.2"
     },
     "Size": {
       "X": 74.318,

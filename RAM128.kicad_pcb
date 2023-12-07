@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "RAM128 (GW4208B)")
-    (date "2023-10-21")
-    (rev "1.1")
+    (date "2023-12-07")
+    (rev "1.2")
     (company "Garrett's Workshop")
   )
 
