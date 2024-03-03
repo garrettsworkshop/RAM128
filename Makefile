@@ -36,6 +36,7 @@ gerber:
 	sed -i '' 's/PosX/MidX/g' $(F_POS)
 	sed -i '' 's/PosY/MidY/g' $(F_POS)
 	sed -i '' 's/Rot/Rotation/g' $(F_POS)
+	rm -f $(F_ZIP)
 	zip -r $(F_ZIP) $@/
 Documentation:
 	mkdir -p $@
