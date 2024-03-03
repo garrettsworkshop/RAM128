@@ -11,7 +11,7 @@
 "U1","1","621024","stdpads:SOP-32_450mil","C397875",""
 "U2","1","74HCT245PW","stdpads:TSSOP-20_4.4x6.5mm_P0.65mm","C5980",""
 "U3, U4","2","74HCT273PW","stdpads:TSSOP-20_4.4x6.5mm_P0.65mm","C5983",""
-"U5, U18","2","74AHCT1G32GW","stdpads:SOT-353","",""
+"U5, U18","2","74AHCT1G32GW","stdpads:SOT-353","C554582",""
 "U6, U8, U9","3","74AHCT08PW","stdpads:TSSOP-14_4.4x5mm_P0.65mm","C155175",""
 "U7, U10","2","74AHCT32PW","stdpads:TSSOP-14_4.4x5mm_P0.65mm","C129435",""
 "U11","1","74AHCT1G126GW","stdpads:SOT-353","C150723",""
