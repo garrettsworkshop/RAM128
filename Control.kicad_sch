@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "df911d10-7e5a-4022-a299-ab3683bd7eba")
+	(paper "A4")
+	(title_block
+		(title "RAM128 (GW4208B)")
+		(date "2024-03-29")
+		(rev "1.3")
+		(company "Garrett's Workshop")
+	)
+	(lib_symbols)
+)

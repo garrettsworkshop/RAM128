@@ -641,6 +641,30 @@
     [
       "b0906e10-2fbc-4309-a8b4-6fc4cd1a5490",
       "Root"
+    ],
+    [
+      "b784b937-586c-44e4-9f31-5c494a1fde51",
+      "Registers"
+    ],
+    [
+      "e374b520-4abe-488b-bd8d-ff74cb0e63aa",
+      "Bus"
+    ],
+    [
+      "3559fc91-c32c-41f2-b7a9-252ed1808f49",
+      "LEDs"
+    ],
+    [
+      "ce8cd90c-9ac1-4def-ac0a-387db1b0f75b",
+      "RAM"
+    ],
+    [
+      "ffecb29e-62d5-4129-8b51-e50825db012c",
+      "Control"
+    ],
+    [
+      "ea82801f-9a89-43e1-abaa-f3a0cb847bbc",
+      "Buf"
     ]
   ],
   "text_variables": {}
