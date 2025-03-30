@@ -979,6 +979,141 @@
 				)
 			)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED_Small_ALT"
 			(pin_numbers hide)
 			(pin_names
@@ -1480,79 +1615,100 @@
 			)
 		)
 	)
+	(junction
+		(at 40.64 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a0b350e-7c85-4a0a-83ee-0bf05ff85851")
+	)
+	(junction
+		(at 50.8 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ade4941-5990-4d62-86e1-878d48fd5273")
+	)
 	(wire
 		(pts
-			(xy 139.7 101.6) (xy 149.86 101.6)
+			(xy 146.05 76.2) (xy 156.21 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07c34976-0762-4c15-85a3-eb52172e0840")
+		(uuid "0c5501d6-7238-49c0-a9d0-93b16c775f8f")
 	)
 	(wire
 		(pts
-			(xy 139.7 55.88) (xy 149.86 55.88)
+			(xy 146.05 137.16) (xy 156.21 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45a3af6f-796e-4e38-a9b2-bc675abf6210")
+		(uuid "51de3170-d664-40fe-97d5-4836be95bd1b")
 	)
 	(wire
 		(pts
-			(xy 139.7 86.36) (xy 149.86 86.36)
+			(xy 40.64 95.25) (xy 50.8 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "518e2233-c988-49d0-9d41-773c2bc36eb4")
+		(uuid "6988ff16-07bd-4951-8d1f-4c605686fdcc")
 	)
 	(wire
 		(pts
-			(xy 139.7 116.84) (xy 149.86 116.84)
+			(xy 146.05 106.68) (xy 156.21 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a9d8075-965c-4062-a42f-43ce3fbd519f")
+		(uuid "6e6c0a75-1136-464d-87c2-49e905c80300")
 	)
 	(wire
 		(pts
-			(xy 139.7 132.08) (xy 149.86 132.08)
+			(xy 146.05 121.92) (xy 156.21 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92fbfe7d-f301-4399-b2f9-51492ffe2b08")
+		(uuid "8e0e5dc9-bdbe-4010-a620-379d426753f2")
 	)
 	(wire
 		(pts
-			(xy 139.7 71.12) (xy 149.86 71.12)
+			(xy 40.64 90.17) (xy 50.8 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a532b5ce-364e-4d2a-a2a6-7ff649387ab4")
+		(uuid "ab4434c5-c045-42c5-9c1e-1149cca31912")
 	)
-	(label "LED_RA16"
-		(at 139.7 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 146.05 91.44) (xy 156.21 91.44)
 		)
-		(uuid "08cf3d60-2fef-4877-920b-95fa4620cab3")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9a01d8-f4a4-4372-9837-355b9d5a59a4")
+	)
+	(wire
+		(pts
+			(xy 146.05 60.96) (xy 156.21 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02da372-d366-4516-984a-bacbc755e341")
 	)
 	(label "LED_RA14"
-		(at 139.7 86.36 0)
+		(at 146.05 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1560,32 +1716,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0b82e82b-d17e-4171-98fc-c9d2193a02f5")
-	)
-	(label "LED_ENRD"
-		(at 139.7 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "29366ff7-91b8-4971-bbd9-2642cc4e1649")
-	)
-	(label "LED_ACT"
-		(at 139.7 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ee85702-ffb8-49fc-8376-d0ba5d299f28")
+		(uuid "1aeb4cab-8ed3-430e-aca7-d5e2d964af6e")
 	)
 	(label "LED_RA15"
-		(at 139.7 71.12 0)
+		(at 146.05 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1593,10 +1727,32 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "78a196c1-8b2d-4227-b719-c59cd7446467")
+		(uuid "1db9732a-b542-4291-8eb5-6c34d05a773e")
+	)
+	(label "LED_RA16"
+		(at 146.05 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90c6d115-45f0-46e8-8ceb-6e2c628b00bd")
+	)
+	(label "LED_ENRD"
+		(at 146.05 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5ff2650-342b-43ee-bdf0-074cf3209a5e")
 	)
 	(label "LED_ENWR"
-		(at 139.7 116.84 0)
+		(at 146.05 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1604,143 +1760,22 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d242c7fe-8ec3-406d-bd67-49570d04cfb3")
+		(uuid "f1022817-5697-4fa3-b711-f4d4e5834bc3")
 	)
-	(hierarchical_label "ENWR"
-		(shape input)
-		(at 119.38 114.3 180)
+	(label "LED_ACT"
+		(at 146.05 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "0b5bd657-747b-4e3c-95f2-cd893d521ba8")
-	)
-	(hierarchical_label "LEDEN"
-		(shape input)
-		(at 119.38 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "19845a48-decf-4a7a-ae6e-75be8e0a411a")
-	)
-	(hierarchical_label "LEDEN"
-		(shape input)
-		(at 119.38 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "38090c06-d6af-491c-b4b4-03a815ad142d")
-	)
-	(hierarchical_label "RA15"
-		(shape input)
-		(at 119.38 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4703a5ce-dd34-44b2-8172-1be916047651")
-	)
-	(hierarchical_label "RCS"
-		(shape input)
-		(at 119.38 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "50661a9a-9199-4990-b14d-4203b320cfdb")
-	)
-	(hierarchical_label "RA14"
-		(shape input)
-		(at 119.38 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6ecd53d1-777e-413c-a171-207746d88e99")
-	)
-	(hierarchical_label "LEDEN"
-		(shape input)
-		(at 119.38 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6fac74e9-fe9f-45d6-b50c-869a6b7c9cc4")
-	)
-	(hierarchical_label "LEDEN"
-		(shape input)
-		(at 119.38 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8a4445ba-2a31-4c94-b471-84e37e2ca92b")
-	)
-	(hierarchical_label "ENRD"
-		(shape input)
-		(at 119.38 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a62f9cd6-6651-4760-8fa4-3e423c3b866c")
-	)
-	(hierarchical_label "LEDEN"
-		(shape input)
-		(at 119.38 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ad6f1d47-d5ad-49fb-a4b1-6b3ea51ea73f")
-	)
-	(hierarchical_label "LEDEN"
-		(shape input)
-		(at 119.38 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae72009a-53ed-4867-9d8a-107cd2616465")
+		(uuid "f8571c7c-43a1-4e43-8909-b2b05de1e51e")
 	)
 	(hierarchical_label "RA16"
 		(shape input)
-		(at 119.38 53.34 180)
+		(at 125.73 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1748,35 +1783,151 @@
 			)
 			(justify right)
 		)
-		(uuid "ba2789f1-cc7e-45d1-b5b8-5dce55a013e9")
+		(uuid "3150fb29-b294-43da-941d-eacd88b28ed8")
+	)
+	(hierarchical_label "LEDEN"
+		(shape input)
+		(at 125.73 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e6c1ff8-6781-4ce7-9460-6ea7e59dc2b3")
+	)
+	(hierarchical_label "LEDEN"
+		(shape input)
+		(at 125.73 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "499223d2-56c2-436a-9db5-e9c72f82090a")
+	)
+	(hierarchical_label "RCS"
+		(shape input)
+		(at 125.73 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54d4e1eb-c2b2-4e13-8058-d36d508d4d15")
+	)
+	(hierarchical_label "LEDEN"
+		(shape input)
+		(at 125.73 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a7ec15a-4c4b-49a4-b41b-cd8d16627e1a")
+	)
+	(hierarchical_label "LEDEN"
+		(shape input)
+		(at 125.73 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8325c30d-5320-4677-b6da-589431ffd049")
+	)
+	(hierarchical_label "LEDEN"
+		(shape input)
+		(at 125.73 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7c14017-26c8-4bc5-91d1-3f9869ce9358")
+	)
+	(hierarchical_label "LEDEN"
+		(shape input)
+		(at 125.73 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b94af900-ad65-4d7a-be18-cc2e16d96cf7")
+	)
+	(hierarchical_label "RA14"
+		(shape input)
+		(at 125.73 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d57f4bab-9418-45b8-8dba-576b1efb58de")
+	)
+	(hierarchical_label "ENWR"
+		(shape input)
+		(at 125.73 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e662e7b6-9d43-44c5-9306-e0de5287d06b")
+	)
+	(hierarchical_label "ENRD"
+		(shape input)
+		(at 125.73 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f77fa4a4-2d55-4e0a-b4ae-d3b8f1e96ca7")
+	)
+	(hierarchical_label "RA15"
+		(shape input)
+		(at 125.73 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffe84811-f416-4c6f-8bd7-c146459dde78")
 	)
 	(symbol
-		(lib_id "74xx:74LS08")
-		(at 127 71.12 0)
-		(unit 2)
+		(lib_id "power:GND")
+		(at 156.21 66.04 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0db53634-687d-40d7-ad6b-f13380145b4a")
-		(property "Reference" "U26"
-			(at 127 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AHCT08PW"
-			(at 127 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "stdpads:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 127 71.12 0)
+		(uuid "0112fa08-7320-409d-8ee8-fa81ca3a4b0c")
+		(property "Reference" "#PWR028"
+			(at 156.21 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,8 +1935,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 127 71.12 0)
+		(property "Value" "GND"
+			(at 156.21 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,7 +1962,292 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 71.12 0)
+			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd7ccb55-8c5c-4cdd-bcd3-c0ab2d5d09fc")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0165485d-a43f-4500-a680-aabe19135fad")
+		(property "Reference" "#PWR036"
+			(at 156.21 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b268f08b-a40a-49a9-8c49-537175ad8f99")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 50.8 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0712e401-ca2d-4be8-8e25-f6b459c0f8c5")
+		(property "Reference" "C21"
+			(at 52.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 52.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "stdpads:C_0603"
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23630"
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b708496-e165-4f5d-ac83-56f794005222")
+		)
+		(pin "2"
+			(uuid "177412c9-6fe0-45a5-8a74-b016abfa1a2b")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_ALT")
+		(at 156.21 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bd6e966-cd1a-4c3e-be8a-7dcc7eca3bca")
+		(property "Reference" "D5"
+			(at 157.988 123.2916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Amber"
+			(at 157.988 125.603 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "stdpads:LED_0805"
+			(at 156.21 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C284932"
+			(at 156.21 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4bd2b9f-d48d-4fd5-8b8a-c474371d5016")
+		)
+		(pin "2"
+			(uuid "d0482fde-24d5-456f-ac67-9dcd2668b683")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS08")
+		(at 133.35 91.44 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21ab1374-59cf-4f80-96f1-e8dd0f69d406")
+		(property "Reference" "U8"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT08PW"
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,7 +2256,943 @@
 			)
 		)
 		(property "LCSC Part" "C155175"
-			(at 127 71.12 0)
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aa31173-7d11-4cbb-90dd-4be2909e527e")
+		)
+		(pin "2"
+			(uuid "0003f98a-3c08-46cb-a658-0f28a62a69b9")
+		)
+		(pin "3"
+			(uuid "18a96e3e-58ed-4df7-bbcf-f40792d34129")
+		)
+		(pin "4"
+			(uuid "db35e570-9618-440d-a9d1-823e6b69d680")
+		)
+		(pin "5"
+			(uuid "3c60a3a3-8ce4-4de6-a6f5-e3b3f0bb6a9e")
+		)
+		(pin "6"
+			(uuid "73b65309-0252-4b6c-a5a0-256e325f9915")
+		)
+		(pin "10"
+			(uuid "3f531e79-1ba1-4662-9922-ad9ecf4843f4")
+		)
+		(pin "8"
+			(uuid "b5c1dce2-b285-44f5-b46f-2132103401fc")
+		)
+		(pin "9"
+			(uuid "3359d4bc-dfd3-4c08-8d71-4182ae4732dd")
+		)
+		(pin "11"
+			(uuid "7fcb233a-2764-4bd8-b208-a10134cbeb74")
+		)
+		(pin "12"
+			(uuid "452f2577-f380-4d66-a5cd-917c66706707")
+		)
+		(pin "13"
+			(uuid "beefa6e1-a46b-4c45-afa2-e0c0f4e55746")
+		)
+		(pin "14"
+			(uuid "537b869d-94fc-4473-b7ed-64e2d111e666")
+		)
+		(pin "7"
+			(uuid "340274d6-7baf-400a-9dfd-01ec6446188c")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "U8")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 143.51 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "267269ea-3ae9-4af5-81bc-ecc664d1b743")
+		(property "Reference" "R13"
+			(at 143.51 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 143.51 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "stdpads:R_0805"
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbf85912-b051-457f-81d3-b112097529f7")
+		)
+		(pin "2"
+			(uuid "9295d670-8e94-41d4-ae50-81334779998e")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2978b205-d9b6-4749-a62e-59d69549de9f")
+		(property "Reference" "#PWR030"
+			(at 156.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "affa07ef-d54f-4c73-bda2-b9c891cc7abd")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_ALT")
+		(at 156.21 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "350ec834-728e-4e26-8694-0cad83faef93")
+		(property "Reference" "D1"
+			(at 157.988 62.3316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Amber"
+			(at 157.988 64.643 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "stdpads:LED_0805"
+			(at 156.21 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C284932"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77ecdb4a-fd53-48da-8eb3-09b8a1ed2fbe")
+		)
+		(pin "2"
+			(uuid "bed415c3-11d4-4255-873c-6978db5efd08")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 143.51 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "369e8fcf-5649-427a-be5f-ccb3d5910c1c")
+		(property "Reference" "R15"
+			(at 143.51 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 143.51 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "stdpads:R_0805"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04cdabc8-c829-431a-aa00-e667eda085d1")
+		)
+		(pin "2"
+			(uuid "b09190ea-3cbc-4f77-a58c-56342ce6f848")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ef8b9d7-e033-4526-90c2-c124e26f0fe9")
+		(property "Reference" "#PWR023"
+			(at 40.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60a3a3d5-4d9b-477f-b081-a0c2b7fdd3e6")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f592847-cdeb-4400-bdc0-9e66936f5995")
+		(property "Reference" "#PWR025"
+			(at 53.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b0260e9-f5d6-4909-b938-4e17759d6a20")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_ALT")
+		(at 156.21 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "425a786d-37f4-477f-9391-cd0e193422e3")
+		(property "Reference" "D2"
+			(at 157.988 77.5716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Amber"
+			(at 157.988 79.883 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "stdpads:LED_0805"
+			(at 156.21 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C284932"
+			(at 156.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed2b6d7d-c3bb-406e-ae29-6211873a30c9")
+		)
+		(pin "2"
+			(uuid "79fd0c49-4216-43a4-9cd4-892d8a874aea")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 40.64 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46e0d665-519c-4a21-adef-3545d04aebf5")
+		(property "Reference" "#PWR061"
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 40.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc299b21-7c6e-4469-80a3-c0387bec5854")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 40.64 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4764939d-af80-4b44-8843-32b4248bd62a")
+		(property "Reference" "#PWR013"
+			(at 40.64 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 40.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "458ab780-1544-4759-a499-c3ab38b685a4")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 143.51 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "497eff72-276e-413e-b52d-33ce1e3f08ec")
+		(property "Reference" "R12"
+			(at 143.51 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 143.51 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "stdpads:R_0805"
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c294147b-d051-4642-a615-b77e79671cb6")
+		)
+		(pin "2"
+			(uuid "29448695-8235-4f08-b344-1b9c55b15639")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS08")
+		(at 53.34 66.04 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49ecdcbc-cd19-43f3-b486-a160bfc521df")
+		(property "Reference" "U7"
+			(at 53.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT08PW"
+			(at 46.99 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 53.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+			(at 53.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C155175"
+			(at 53.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "856d4823-c9c1-48b9-9b4a-f685e76b7e3c")
+		)
+		(pin "2"
+			(uuid "63b008c3-66d1-433f-90a3-a7b1101dce65")
+		)
+		(pin "3"
+			(uuid "113fc214-8c5f-4ded-aba3-219fdd46cbff")
+		)
+		(pin "4"
+			(uuid "db35e570-9618-440d-a9d1-823e6b69d685")
+		)
+		(pin "5"
+			(uuid "3c60a3a3-8ce4-4de6-a6f5-e3b3f0bb6aa3")
+		)
+		(pin "6"
+			(uuid "73b65309-0252-4b6c-a5a0-256e325f991a")
+		)
+		(pin "10"
+			(uuid "4287abe9-8d17-42ff-9b75-e9ae9ff57a18")
+		)
+		(pin "8"
+			(uuid "1628c664-77d7-4b52-8337-66b8047b3adb")
+		)
+		(pin "9"
+			(uuid "fa395609-a46d-4158-8375-db58814ace6b")
+		)
+		(pin "11"
+			(uuid "7fcb233a-2764-4bd8-b208-a10134cbeb78")
+		)
+		(pin "12"
+			(uuid "452f2577-f380-4d66-a5cd-917c6670670b")
+		)
+		(pin "13"
+			(uuid "beefa6e1-a46b-4c45-afa2-e0c0f4e5574a")
+		)
+		(pin "14"
+			(uuid "82902af6-fbea-420a-b6d0-b3a746095765")
+		)
+		(pin "7"
+			(uuid "0dd413eb-d394-40ad-bab7-42e10261283d")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "U7")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS08")
+		(at 133.35 76.2 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66efa779-32cd-4b15-aacb-73e2afbc23bd")
+		(property "Reference" "U8"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT08PW"
+			(at 133.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C155175"
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,13 +3210,13 @@
 			(uuid "18a96e3e-58ed-4df7-bbcf-f40792d34127")
 		)
 		(pin "4"
-			(uuid "db35e570-9618-440d-a9d1-823e6b69d67e")
+			(uuid "a5eda07a-0d9a-4a6d-868d-c8cc0db8bd64")
 		)
 		(pin "5"
-			(uuid "3c60a3a3-8ce4-4de6-a6f5-e3b3f0bb6a9c")
+			(uuid "7e1f789d-768e-4e24-8344-e2ec9520af33")
 		)
 		(pin "6"
-			(uuid "73b65309-0252-4b6c-a5a0-256e325f9913")
+			(uuid "23a3d1bc-dac5-4c62-bb0d-8550077b3066")
 		)
 		(pin "10"
 			(uuid "65516d94-86a0-4779-aa30-44456ec6ad9f")
@@ -1856,295 +3245,23 @@
 		(instances
 			(project "RAM128"
 				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "U26")
+					(reference "U8")
 					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 44.45 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "216f82ed-e81d-455e-a92c-94372532504f")
-		(property "Reference" "#PWR024"
-			(at 44.45 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 44.45 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8f512b9-5240-47aa-8580-eff388e040ba")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 137.16 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "273fd8da-c14a-4876-b197-ff2f416ceb0e")
-		(property "Reference" "R1"
-			(at 137.16 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 137.16 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "stdpads:R_0805"
-			(at 137.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 137.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f68d4599-dd7e-4466-8499-9be8152d6a53")
-		)
-		(pin "2"
-			(uuid "6ac3a2e7-b288-4ddd-81dd-bfc414d7de85")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 34.29 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2818eef4-2b1e-470f-81e5-bdc6d934f4c3")
-		(property "Reference" "#PWR013"
-			(at 34.29 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.29 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0538e1f-5488-4bbc-87c1-3faa1b2ab1c5")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 44.45 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "286a23ca-fc69-4545-a2ee-b4dbe05237f2")
-		(property "Reference" "#PWR023"
-			(at 44.45 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f18ad1be-a36f-4a44-8f9b-1c1f9188fcf8")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74LS08")
-		(at 127 55.88 0)
-		(unit 1)
+		(at 133.35 106.68 0)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2c2435f7-3081-4c0d-bab0-be483756ec2f")
-		(property "Reference" "U26"
-			(at 127 55.88 0)
+		(uuid "68805eee-b72f-4ddf-8a6a-a3bc18303429")
+		(property "Reference" "U8"
+			(at 133.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,7 +3269,7 @@
 			)
 		)
 		(property "Value" "74AHCT08PW"
-			(at 127 50.8 0)
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,7 +3277,7 @@
 			)
 		)
 		(property "Footprint" "stdpads:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 127 55.88 0)
+			(at 133.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,7 +3286,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 127 55.88 0)
+			(at 133.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,7 +3295,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 55.88 0)
+			(at 133.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2187,7 +3304,7 @@
 			)
 		)
 		(property "LCSC Part" "C155175"
-			(at 127 55.88 0)
+			(at 133.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2196,67 +3313,67 @@
 			)
 		)
 		(pin "1"
-			(uuid "4aa31173-7d11-4cbb-90dd-4be2909e527c")
+			(uuid "4aa31173-7d11-4cbb-90dd-4be2909e527f")
 		)
 		(pin "2"
-			(uuid "0003f98a-3c08-46cb-a658-0f28a62a69b7")
+			(uuid "0003f98a-3c08-46cb-a658-0f28a62a69ba")
 		)
 		(pin "3"
-			(uuid "18a96e3e-58ed-4df7-bbcf-f40792d34127")
+			(uuid "18a96e3e-58ed-4df7-bbcf-f40792d3412a")
 		)
 		(pin "4"
-			(uuid "db35e570-9618-440d-a9d1-823e6b69d67e")
+			(uuid "db35e570-9618-440d-a9d1-823e6b69d681")
 		)
 		(pin "5"
-			(uuid "3c60a3a3-8ce4-4de6-a6f5-e3b3f0bb6a9c")
+			(uuid "3c60a3a3-8ce4-4de6-a6f5-e3b3f0bb6a9f")
 		)
 		(pin "6"
-			(uuid "73b65309-0252-4b6c-a5a0-256e325f9913")
+			(uuid "73b65309-0252-4b6c-a5a0-256e325f9916")
 		)
 		(pin "10"
-			(uuid "4287abe9-8d17-42ff-9b75-e9ae9ff57a16")
+			(uuid "4a1c9c41-8e95-46a5-9632-fb098fa03d9e")
 		)
 		(pin "8"
-			(uuid "1628c664-77d7-4b52-8337-66b8047b3ad9")
+			(uuid "8780309c-2cd7-46cc-9a1c-127907e6d2ad")
 		)
 		(pin "9"
-			(uuid "fa395609-a46d-4158-8375-db58814ace69")
+			(uuid "5a768c6b-7b6e-46ca-a1ca-1b3dd932bc7a")
 		)
 		(pin "11"
-			(uuid "7fcb233a-2764-4bd8-b208-a10134cbeb72")
+			(uuid "66f72906-dca1-45f4-9a5c-00fab7580771")
 		)
 		(pin "12"
-			(uuid "452f2577-f380-4d66-a5cd-917c66706705")
+			(uuid "7504a4b7-fb48-451d-9716-8adad9c06ce6")
 		)
 		(pin "13"
-			(uuid "beefa6e1-a46b-4c45-afa2-e0c0f4e55744")
+			(uuid "3f34ac9f-e227-41d5-a1e3-97e8c438d7a9")
 		)
 		(pin "14"
-			(uuid "537b869d-94fc-4473-b7ed-64e2d111e664")
+			(uuid "537b869d-94fc-4473-b7ed-64e2d111e667")
 		)
 		(pin "7"
-			(uuid "340274d6-7baf-400a-9dfd-01ec6446188a")
+			(uuid "340274d6-7baf-400a-9dfd-01ec6446188d")
 		)
 		(instances
 			(project "RAM128"
 				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "U26")
-					(unit 1)
+					(reference "U8")
+					(unit 4)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 121.92 0)
+		(at 50.8 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "317b13a1-6b55-4176-9ce6-cd0a0c7edf9a")
-		(property "Reference" "#PWR039"
-			(at 149.86 128.27 0)
+		(uuid "6e8acb9b-a4cf-498a-9f3c-8a6068bdfaea")
+		(property "Reference" "#PWR062"
+			(at 50.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +3382,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 125.73 0)
+			(at 50.8 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2273,7 +3390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 121.92 0)
+			(at 50.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,7 +3399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 121.92 0)
+			(at 50.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,7 +3408,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 121.92 0)
+			(at 50.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,110 +3417,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e44efa1-1f30-4f93-b9b0-e628a0c81839")
+			(uuid "0e686dd6-bc9d-4ed2-a0ec-b697f6855698")
 		)
 		(instances
 			(project "RAM128"
 				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "#PWR039")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 34.29 48.26 0)
+		(lib_id "Device:C_Small")
+		(at 40.64 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "35c93fe1-a126-45e9-8db7-0373b6173c1b")
-		(property "Reference" "#PWR025"
-			(at 34.29 52.07 0)
+		(uuid "6fb3c648-3080-4ed5-a9bb-9a934d387dff")
+		(property "Reference" "C20"
+			(at 41.91 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "+5V"
-			(at 34.29 44.45 0)
+		(property "Value" "2u2"
+			(at 41.91 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 34.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53f27c9b-175e-44b8-b638-7e7b3efbb6fb")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 137.16 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3679abad-ab69-41ac-ae1a-46eb9667597f")
-		(property "Reference" "R12"
-			(at 137.16 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 137.16 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "stdpads:R_0805"
-			(at 137.16 86.36 0)
+		(property "Footprint" "stdpads:C_0603"
+			(at 40.64 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +3465,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 86.36 0)
+			(at 40.64 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +3474,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 86.36 0)
+			(at 40.64 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,8 +3482,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 137.16 86.36 0)
+		(property "LCSC Part" "C23630"
+			(at 40.64 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,313 +3492,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5b34a57-3e83-4e76-8b45-edd6b117c1a1")
+			(uuid "4d358558-67ab-4b5b-921a-030742a98e3d")
 		)
 		(pin "2"
-			(uuid "982efeec-5bdf-49b2-ae34-7b2c462878ff")
+			(uuid "99032152-3470-4866-b520-da341caaec46")
 		)
 		(instances
 			(project "RAM128"
 				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small_ALT")
-		(at 149.86 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "519faf8b-1126-43e8-9928-09e6da8989ca")
-		(property "Reference" "D6"
-			(at 151.638 133.4516 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Amber"
-			(at 151.638 135.763 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "stdpads:LED_0805"
-			(at 149.86 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C284932"
-			(at 149.86 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec7b3b68-a4cd-4189-8dd4-a34d00a4f34c")
-		)
-		(pin "2"
-			(uuid "c95010ba-3aa2-436f-889f-575267e3b1a4")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 137.16 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59d136f2-a774-4ed2-bf73-e0b30ee56644")
-		(property "Reference" "R13"
-			(at 137.16 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 137.16 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "stdpads:R_0805"
-			(at 137.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 137.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "595ec31f-ad93-43c1-bd74-1e89a00a9bba")
-		)
-		(pin "2"
-			(uuid "b5722a63-170f-4209-9574-521d5924ecce")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5adf6556-128f-4145-9085-5571ab6a1519")
-		(property "Reference" "#PWR037"
-			(at 149.86 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ced88826-98d8-4294-9305-87179a7cc119")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small_ALT")
-		(at 149.86 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71b5b80d-eeb2-4860-8b53-d81b0d885260")
-		(property "Reference" "D2"
-			(at 151.638 72.4916 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Amber"
-			(at 151.638 74.803 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "stdpads:LED_0805"
-			(at 149.86 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C284932"
-			(at 149.86 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4a3425e-9d37-4fe9-a1aa-2c664ebcfefc")
-		)
-		(pin "2"
-			(uuid "0973816b-c7d9-4c60-9022-6984ab582091")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "D2")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -2753,15 +3508,15 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 127 86.36 0)
-		(unit 3)
+		(at 40.64 66.04 0)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8017197a-90d5-4665-b8ac-9bf40b170612")
-		(property "Reference" "U26"
-			(at 127 86.36 0)
+		(uuid "72002526-de4d-41a3-9553-0a318ae6f4d6")
+		(property "Reference" "U8"
+			(at 40.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,7 +3524,7 @@
 			)
 		)
 		(property "Value" "74AHCT08PW"
-			(at 127 81.28 0)
+			(at 34.29 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +3532,7 @@
 			)
 		)
 		(property "Footprint" "stdpads:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 127 86.36 0)
+			(at 40.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +3541,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 127 86.36 0)
+			(at 40.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +3550,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 86.36 0)
+			(at 40.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +3559,7 @@
 			)
 		)
 		(property "LCSC Part" "C155175"
-			(at 127 86.36 0)
+			(at 40.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,287 +3568,67 @@
 			)
 		)
 		(pin "1"
-			(uuid "4aa31173-7d11-4cbb-90dd-4be2909e527d")
+			(uuid "856d4823-c9c1-48b9-9b4a-f685e76b7e3b")
 		)
 		(pin "2"
-			(uuid "0003f98a-3c08-46cb-a658-0f28a62a69b8")
+			(uuid "63b008c3-66d1-433f-90a3-a7b1101dce64")
 		)
 		(pin "3"
-			(uuid "18a96e3e-58ed-4df7-bbcf-f40792d34128")
+			(uuid "113fc214-8c5f-4ded-aba3-219fdd46cbfe")
 		)
 		(pin "4"
-			(uuid "db35e570-9618-440d-a9d1-823e6b69d67f")
+			(uuid "db35e570-9618-440d-a9d1-823e6b69d682")
 		)
 		(pin "5"
-			(uuid "3c60a3a3-8ce4-4de6-a6f5-e3b3f0bb6a9d")
+			(uuid "3c60a3a3-8ce4-4de6-a6f5-e3b3f0bb6aa0")
 		)
 		(pin "6"
-			(uuid "73b65309-0252-4b6c-a5a0-256e325f9914")
+			(uuid "73b65309-0252-4b6c-a5a0-256e325f9917")
 		)
 		(pin "10"
-			(uuid "38153c5d-421a-4f24-8c32-73dffc79ebbd")
+			(uuid "4287abe9-8d17-42ff-9b75-e9ae9ff57a17")
 		)
 		(pin "8"
-			(uuid "9c9a8995-9fe5-435f-9a11-4359c7e83833")
+			(uuid "1628c664-77d7-4b52-8337-66b8047b3ada")
 		)
 		(pin "9"
-			(uuid "88751306-8aaa-43a9-8994-f2ad1d09a271")
+			(uuid "fa395609-a46d-4158-8375-db58814ace6a")
 		)
 		(pin "11"
-			(uuid "7fcb233a-2764-4bd8-b208-a10134cbeb73")
+			(uuid "7fcb233a-2764-4bd8-b208-a10134cbeb76")
 		)
 		(pin "12"
-			(uuid "452f2577-f380-4d66-a5cd-917c66706706")
+			(uuid "452f2577-f380-4d66-a5cd-917c66706709")
 		)
 		(pin "13"
-			(uuid "beefa6e1-a46b-4c45-afa2-e0c0f4e55745")
+			(uuid "beefa6e1-a46b-4c45-afa2-e0c0f4e55748")
 		)
 		(pin "14"
-			(uuid "537b869d-94fc-4473-b7ed-64e2d111e665")
+			(uuid "54e75df2-53b5-4faf-a7ba-30444a4e46d5")
 		)
 		(pin "7"
-			(uuid "340274d6-7baf-400a-9dfd-01ec6446188b")
+			(uuid "b624e436-e497-4c75-bc8f-0c5d7acdedec")
 		)
 		(instances
 			(project "RAM128"
 				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "U26")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 137.16 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84820845-39c1-4397-b436-630a06bb01bb")
-		(property "Reference" "R15"
-			(at 137.16 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 137.16 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "stdpads:R_0805"
-			(at 137.16 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 137.16 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca4df000-2300-4e48-9c60-729272c800b0")
-		)
-		(pin "2"
-			(uuid "d9ca6c6b-87af-4bf2-9bc1-92cedf0584ce")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2ef8331-7ad5-4a64-983d-8a2b2a967af7")
-		(property "Reference" "#PWR038"
-			(at 149.86 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b11641be-01bd-465e-bcb9-76b4b43b819b")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "#PWR038")
-					(unit 1)
+					(reference "U8")
+					(unit 5)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:LED_Small_ALT")
-		(at 149.86 104.14 90)
+		(at 156.21 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a6a7b23c-890c-4ff6-a169-b168e9018b2c")
-		(property "Reference" "D4"
-			(at 151.638 102.9716 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Amber"
-			(at 151.638 105.283 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "stdpads:LED_0805"
-			(at 149.86 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C284932"
-			(at 149.86 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e664c49f-4c7a-43ea-a492-4de5a5401c8b")
-		)
-		(pin "2"
-			(uuid "cbe9cf8b-671c-4835-ace8-df147144e17a")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small_ALT")
-		(at 149.86 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b050153d-38e4-4cc0-ab0d-a8aea2b9f39e")
+		(uuid "7cd11422-d043-4a5d-a629-38d06705c348")
 		(property "Reference" "D3"
-			(at 151.638 87.7316 90)
+			(at 157.988 92.8116 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +3637,7 @@
 			)
 		)
 		(property "Value" "Amber"
-			(at 151.638 90.043 90)
+			(at 157.988 95.123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +3646,7 @@
 			)
 		)
 		(property "Footprint" "stdpads:LED_0805"
-			(at 149.86 88.9 90)
+			(at 156.21 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 88.9 90)
+			(at 156.21 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +3664,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 88.9 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3673,7 @@
 			)
 		)
 		(property "LCSC Part" "C284932"
-			(at 149.86 88.9 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,10 +3682,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a7777221-173e-4131-aa97-ad17d180731c")
+			(uuid "d1f3cafc-2ffd-4818-b425-4baf04048028")
 		)
 		(pin "2"
-			(uuid "af5be168-d2fd-4e22-8df3-61b28a118b6b")
+			(uuid "7f210749-219e-4a9c-9c05-eb7429d92973")
 		)
 		(instances
 			(project "RAM128"
@@ -3163,614 +3698,15 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 127 101.6 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6826055-2820-458f-859b-066226709805")
-		(property "Reference" "U26"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AHCT08PW"
-			(at 127 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "stdpads:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C155175"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4aa31173-7d11-4cbb-90dd-4be2909e527c")
-		)
-		(pin "2"
-			(uuid "0003f98a-3c08-46cb-a658-0f28a62a69b7")
-		)
-		(pin "3"
-			(uuid "18a96e3e-58ed-4df7-bbcf-f40792d34127")
-		)
-		(pin "4"
-			(uuid "db35e570-9618-440d-a9d1-823e6b69d67e")
-		)
-		(pin "5"
-			(uuid "3c60a3a3-8ce4-4de6-a6f5-e3b3f0bb6a9c")
-		)
-		(pin "6"
-			(uuid "73b65309-0252-4b6c-a5a0-256e325f9913")
-		)
-		(pin "10"
-			(uuid "4a1c9c41-8e95-46a5-9632-fb098fa03d9e")
-		)
-		(pin "8"
-			(uuid "8780309c-2cd7-46cc-9a1c-127907e6d2ad")
-		)
-		(pin "9"
-			(uuid "5a768c6b-7b6e-46ca-a1ca-1b3dd932bc7a")
-		)
-		(pin "11"
-			(uuid "7fcb233a-2764-4bd8-b208-a10134cbeb72")
-		)
-		(pin "12"
-			(uuid "452f2577-f380-4d66-a5cd-917c66706705")
-		)
-		(pin "13"
-			(uuid "beefa6e1-a46b-4c45-afa2-e0c0f4e55744")
-		)
-		(pin "14"
-			(uuid "537b869d-94fc-4473-b7ed-64e2d111e664")
-		)
-		(pin "7"
-			(uuid "340274d6-7baf-400a-9dfd-01ec6446188a")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "U26")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7cd0a05-d8c0-4368-bcc6-3f31a3b1abf8")
-		(property "Reference" "#PWR040"
-			(at 149.86 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "549760c8-d329-4502-a248-de503f67272a")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS08")
-		(at 34.29 60.96 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4146a8b-bb6e-4abb-b28e-4d5591cb831e")
-		(property "Reference" "U27"
-			(at 34.29 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AHCT08PW"
-			(at 34.29 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "stdpads:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 34.29 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 34.29 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C155175"
-			(at 34.29 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "856d4823-c9c1-48b9-9b4a-f685e76b7e3b")
-		)
-		(pin "2"
-			(uuid "63b008c3-66d1-433f-90a3-a7b1101dce64")
-		)
-		(pin "3"
-			(uuid "113fc214-8c5f-4ded-aba3-219fdd46cbfe")
-		)
-		(pin "4"
-			(uuid "db35e570-9618-440d-a9d1-823e6b69d67e")
-		)
-		(pin "5"
-			(uuid "3c60a3a3-8ce4-4de6-a6f5-e3b3f0bb6a9c")
-		)
-		(pin "6"
-			(uuid "73b65309-0252-4b6c-a5a0-256e325f9913")
-		)
-		(pin "10"
-			(uuid "4287abe9-8d17-42ff-9b75-e9ae9ff57a16")
-		)
-		(pin "8"
-			(uuid "1628c664-77d7-4b52-8337-66b8047b3ad9")
-		)
-		(pin "9"
-			(uuid "fa395609-a46d-4158-8375-db58814ace69")
-		)
-		(pin "11"
-			(uuid "7fcb233a-2764-4bd8-b208-a10134cbeb72")
-		)
-		(pin "12"
-			(uuid "452f2577-f380-4d66-a5cd-917c66706705")
-		)
-		(pin "13"
-			(uuid "beefa6e1-a46b-4c45-afa2-e0c0f4e55744")
-		)
-		(pin "14"
-			(uuid "a086c211-1a55-4b61-9d38-8bea0f440a05")
-		)
-		(pin "7"
-			(uuid "b34dcb0f-5eae-4cc5-b3f6-d8985d1c1866")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "U27")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small_ALT")
-		(at 149.86 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d452c0a3-ce3e-4c86-bd39-e0336722be91")
-		(property "Reference" "D1"
-			(at 151.638 57.2516 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Amber"
-			(at 151.638 59.563 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "stdpads:LED_0805"
-			(at 149.86 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C284932"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ac1d9f5-647b-4ffd-9272-0f34e79af9dd")
-		)
-		(pin "2"
-			(uuid "ff40e18a-ce71-491a-918a-e1e11b731506")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small_ALT")
-		(at 149.86 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d60a3196-301c-4e47-9f93-f32f432e58ce")
-		(property "Reference" "D5"
-			(at 151.638 118.2116 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Amber"
-			(at 151.638 120.523 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "stdpads:LED_0805"
-			(at 149.86 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C284932"
-			(at 149.86 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3badc6b5-f36e-4e95-bff3-8405bd923ec0")
-		)
-		(pin "2"
-			(uuid "8778cd0a-0378-492f-b52e-e88c5cec3474")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 137.16 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ded5b63b-1db0-4c4c-9f00-b147e337aa8e")
-		(property "Reference" "R11"
-			(at 137.16 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 137.16 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "stdpads:R_0805"
-			(at 137.16 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 137.16 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c30fdb27-7192-4b1d-918b-0d415bc50f35")
-		)
-		(pin "2"
-			(uuid "99887bc8-9c3e-4629-a237-affe8c33393e")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 137.16 116.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3cfcd18-6c58-4967-a98d-795e33a20ead")
-		(property "Reference" "R14"
-			(at 137.16 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 137.16 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "stdpads:R_0805"
-			(at 137.16 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 137.16 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47cd0b36-e871-4c24-b101-62b4d1b08f9d")
-		)
-		(pin "2"
-			(uuid "191f05a8-7d55-4267-bfbf-d553473b4123")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS08")
-		(at 127 116.84 0)
+		(at 133.35 121.92 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e3fb08fc-f956-4d45-acdd-3d62232d11cb")
-		(property "Reference" "U27"
-			(at 127 116.84 0)
+		(uuid "7d83d90f-0e89-45c9-8200-b6548f0c5e71")
+		(property "Reference" "U7"
+			(at 133.35 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +3714,7 @@
 			)
 		)
 		(property "Value" "74AHCT08PW"
-			(at 127 111.76 0)
+			(at 133.35 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3722,7 @@
 			)
 		)
 		(property "Footprint" "stdpads:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 127 116.84 0)
+			(at 133.35 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3731,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 127 116.84 0)
+			(at 133.35 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +3740,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 116.84 0)
+			(at 133.35 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +3749,7 @@
 			)
 		)
 		(property "LCSC Part" "C155175"
-			(at 127 116.84 0)
+			(at 133.35 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,13 +3758,125 @@
 			)
 		)
 		(pin "1"
-			(uuid "4aa31173-7d11-4cbb-90dd-4be2909e527d")
+			(uuid "4aa31173-7d11-4cbb-90dd-4be2909e5280")
 		)
 		(pin "2"
-			(uuid "0003f98a-3c08-46cb-a658-0f28a62a69b8")
+			(uuid "0003f98a-3c08-46cb-a658-0f28a62a69bb")
 		)
 		(pin "3"
-			(uuid "18a96e3e-58ed-4df7-bbcf-f40792d34128")
+			(uuid "18a96e3e-58ed-4df7-bbcf-f40792d3412b")
+		)
+		(pin "4"
+			(uuid "db35e570-9618-440d-a9d1-823e6b69d683")
+		)
+		(pin "5"
+			(uuid "3c60a3a3-8ce4-4de6-a6f5-e3b3f0bb6aa1")
+		)
+		(pin "6"
+			(uuid "73b65309-0252-4b6c-a5a0-256e325f9918")
+		)
+		(pin "10"
+			(uuid "43c81ded-c24a-4f84-91e9-dcb0aa7bf959")
+		)
+		(pin "8"
+			(uuid "15af65e2-706f-46c2-91d5-36b4f9526d8f")
+		)
+		(pin "9"
+			(uuid "d3e94e45-57df-4289-9aca-e18a546e1bd5")
+		)
+		(pin "11"
+			(uuid "7fcb233a-2764-4bd8-b208-a10134cbeb77")
+		)
+		(pin "12"
+			(uuid "452f2577-f380-4d66-a5cd-917c6670670a")
+		)
+		(pin "13"
+			(uuid "beefa6e1-a46b-4c45-afa2-e0c0f4e55749")
+		)
+		(pin "14"
+			(uuid "537b869d-94fc-4473-b7ed-64e2d111e668")
+		)
+		(pin "7"
+			(uuid "340274d6-7baf-400a-9dfd-01ec6446188e")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "U7")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS08")
+		(at 133.35 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81f51aee-2d47-4080-a1c5-fb8a4ff66338")
+		(property "Reference" "U8"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT08PW"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C155175"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bfd573b-588a-4be4-820c-33949ada199e")
+		)
+		(pin "2"
+			(uuid "42650b80-4754-4c32-b062-a6105970f067")
+		)
+		(pin "3"
+			(uuid "76855b4b-83b1-439f-9c03-36ac6ba640bd")
 		)
 		(pin "4"
 			(uuid "db35e570-9618-440d-a9d1-823e6b69d67f")
@@ -3840,13 +3888,13 @@
 			(uuid "73b65309-0252-4b6c-a5a0-256e325f9914")
 		)
 		(pin "10"
-			(uuid "4d3c4f75-2111-40b2-9efd-268065e246ef")
+			(uuid "4287abe9-8d17-42ff-9b75-e9ae9ff57a16")
 		)
 		(pin "8"
-			(uuid "5c187fa6-bb5f-4b94-a9d2-22526231b599")
+			(uuid "1628c664-77d7-4b52-8337-66b8047b3ad9")
 		)
 		(pin "9"
-			(uuid "246997dc-2fd9-425c-a8ba-ff264cf1b516")
+			(uuid "fa395609-a46d-4158-8375-db58814ace69")
 		)
 		(pin "11"
 			(uuid "7fcb233a-2764-4bd8-b208-a10134cbeb73")
@@ -3866,23 +3914,40 @@
 		(instances
 			(project "RAM128"
 				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "U27")
-					(unit 3)
+					(reference "U8")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 149.86 76.2 0)
+		(lib_id "Device:R_Small")
+		(at 143.51 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e57f99ca-829b-4894-a086-fb69ad2e68fa")
-		(property "Reference" "#PWR036"
-			(at 149.86 82.55 0)
+		(uuid "8e5d8a25-99b6-4ca0-b5c3-805367e2b68d")
+		(property "Reference" "R16"
+			(at 143.51 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 143.51 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "stdpads:R_0805"
+			(at 143.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,25 +3955,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 149.86 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 76.2 0)
+		(property "Datasheet" "~"
+			(at 143.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +3965,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 76.2 0)
+			(at 143.51 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 143.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,12 +3983,80 @@
 			)
 		)
 		(pin "1"
-			(uuid "13ee6b13-da03-472b-b78c-f03893f3a106")
+			(uuid "39e9eed5-53ff-438d-8e2a-014b94c7610f")
+		)
+		(pin "2"
+			(uuid "66301a83-c6e3-4c59-b67c-fd71dbdf947f")
 		)
 		(instances
 			(project "RAM128"
 				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "#PWR036")
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90976cde-81e9-43f9-9002-62bfade81df2")
+		(property "Reference" "#PWR035"
+			(at 156.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52d1a45b-6628-4a6d-a1a4-a86fd584fd5a")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3939,15 +4064,15 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 127 132.08 0)
+		(at 133.35 137.16 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e789b8e8-7e19-4ed2-8c5e-3f89e9eff3e0")
-		(property "Reference" "U27"
-			(at 127 132.08 0)
+		(uuid "953229d9-52e2-4463-ba0a-6595e67932c1")
+		(property "Reference" "U7"
+			(at 133.35 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,7 +4080,7 @@
 			)
 		)
 		(property "Value" "74AHCT08PW"
-			(at 127 127 0)
+			(at 133.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +4088,7 @@
 			)
 		)
 		(property "Footprint" "stdpads:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 127 132.08 0)
+			(at 133.35 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +4097,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 127 132.08 0)
+			(at 133.35 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +4106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 132.08 0)
+			(at 133.35 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +4115,7 @@
 			)
 		)
 		(property "LCSC Part" "C155175"
-			(at 127 132.08 0)
+			(at 133.35 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,179 +4124,67 @@
 			)
 		)
 		(pin "1"
-			(uuid "4aa31173-7d11-4cbb-90dd-4be2909e527c")
+			(uuid "4aa31173-7d11-4cbb-90dd-4be2909e5281")
 		)
 		(pin "2"
-			(uuid "0003f98a-3c08-46cb-a658-0f28a62a69b7")
+			(uuid "0003f98a-3c08-46cb-a658-0f28a62a69bc")
 		)
 		(pin "3"
-			(uuid "18a96e3e-58ed-4df7-bbcf-f40792d34127")
+			(uuid "18a96e3e-58ed-4df7-bbcf-f40792d3412c")
 		)
 		(pin "4"
-			(uuid "db35e570-9618-440d-a9d1-823e6b69d67e")
+			(uuid "db35e570-9618-440d-a9d1-823e6b69d684")
 		)
 		(pin "5"
-			(uuid "3c60a3a3-8ce4-4de6-a6f5-e3b3f0bb6a9c")
+			(uuid "3c60a3a3-8ce4-4de6-a6f5-e3b3f0bb6aa2")
 		)
 		(pin "6"
-			(uuid "73b65309-0252-4b6c-a5a0-256e325f9913")
+			(uuid "73b65309-0252-4b6c-a5a0-256e325f9919")
 		)
 		(pin "10"
-			(uuid "4a1c9c41-8e95-46a5-9632-fb098fa03d9e")
+			(uuid "4a1c9c41-8e95-46a5-9632-fb098fa03d9f")
 		)
 		(pin "8"
-			(uuid "8780309c-2cd7-46cc-9a1c-127907e6d2ad")
+			(uuid "8780309c-2cd7-46cc-9a1c-127907e6d2ae")
 		)
 		(pin "9"
-			(uuid "5a768c6b-7b6e-46ca-a1ca-1b3dd932bc7a")
+			(uuid "5a768c6b-7b6e-46ca-a1ca-1b3dd932bc7b")
 		)
 		(pin "11"
-			(uuid "e2caa2bd-e5c0-4577-a41b-f0fc789e6682")
+			(uuid "df006288-0ba5-4a29-ab00-f559e8df7cfc")
 		)
 		(pin "12"
-			(uuid "6c83c8da-56c7-4a22-8730-16c842d7a639")
+			(uuid "7a75c84f-197a-449f-ab35-56355bd398fe")
 		)
 		(pin "13"
-			(uuid "c881c18f-ca10-40c0-8fd9-33f0c8bfe6ba")
+			(uuid "6861c900-482f-4e59-be2b-52df695de6e1")
 		)
 		(pin "14"
-			(uuid "537b869d-94fc-4473-b7ed-64e2d111e664")
+			(uuid "537b869d-94fc-4473-b7ed-64e2d111e669")
 		)
 		(pin "7"
-			(uuid "340274d6-7baf-400a-9dfd-01ec6446188a")
+			(uuid "340274d6-7baf-400a-9dfd-01ec6446188f")
 		)
 		(instances
 			(project "RAM128"
 				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "U27")
+					(reference "U7")
 					(unit 4)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS08")
-		(at 44.45 31.75 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef677cbe-1c13-41cd-93cc-25a9099c0f9c")
-		(property "Reference" "U26"
-			(at 44.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AHCT08PW"
-			(at 44.45 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "stdpads:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 44.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 44.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C155175"
-			(at 44.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "856d4823-c9c1-48b9-9b4a-f685e76b7e3b")
-		)
-		(pin "2"
-			(uuid "63b008c3-66d1-433f-90a3-a7b1101dce64")
-		)
-		(pin "3"
-			(uuid "113fc214-8c5f-4ded-aba3-219fdd46cbfe")
-		)
-		(pin "4"
-			(uuid "db35e570-9618-440d-a9d1-823e6b69d67e")
-		)
-		(pin "5"
-			(uuid "3c60a3a3-8ce4-4de6-a6f5-e3b3f0bb6a9c")
-		)
-		(pin "6"
-			(uuid "73b65309-0252-4b6c-a5a0-256e325f9913")
-		)
-		(pin "10"
-			(uuid "4287abe9-8d17-42ff-9b75-e9ae9ff57a16")
-		)
-		(pin "8"
-			(uuid "1628c664-77d7-4b52-8337-66b8047b3ad9")
-		)
-		(pin "9"
-			(uuid "fa395609-a46d-4158-8375-db58814ace69")
-		)
-		(pin "11"
-			(uuid "7fcb233a-2764-4bd8-b208-a10134cbeb72")
-		)
-		(pin "12"
-			(uuid "452f2577-f380-4d66-a5cd-917c66706705")
-		)
-		(pin "13"
-			(uuid "beefa6e1-a46b-4c45-afa2-e0c0f4e55744")
-		)
-		(pin "14"
-			(uuid "537b869d-94fc-4473-b7ed-64e2d111e664")
-		)
-		(pin "7"
-			(uuid "340274d6-7baf-400a-9dfd-01ec6446188a")
-		)
-		(instances
-			(project "RAM128"
-				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "U26")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 149.86 60.96 0)
+		(at 156.21 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f21c4dfc-569c-4c80-87c3-4c2d2980b26d")
-		(property "Reference" "#PWR035"
-			(at 149.86 67.31 0)
+		(uuid "9e8f17a2-ae57-4707-a5b8-6850ac1512cf")
+		(property "Reference" "#PWR031"
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +4193,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 64.77 0)
+			(at 156.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 60.96 0)
+			(at 156.21 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,7 +4210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 60.96 0)
+			(at 156.21 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +4219,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 60.96 0)
+			(at 156.21 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,12 +4228,452 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9469e5a-765c-4739-a6c6-24102ca8f16c")
+			(uuid "07a7c7e9-4bfc-494e-955a-21d704042054")
 		)
 		(instances
 			(project "RAM128"
 				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
-					(reference "#PWR035")
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_ALT")
+		(at 156.21 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f8b3012-cc1e-453d-a492-e1fb45f15c8f")
+		(property "Reference" "D6"
+			(at 157.988 138.5316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Amber"
+			(at 157.988 140.843 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "stdpads:LED_0805"
+			(at 156.21 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C284932"
+			(at 156.21 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b987448-f3b9-4988-9d81-cacea96115b2")
+		)
+		(pin "2"
+			(uuid "dcb4623e-95c0-4ede-af43-188f1c2fce50")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 143.51 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2fe11c5-02f2-4c36-a8bb-fde3b54f236a")
+		(property "Reference" "R14"
+			(at 143.51 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 143.51 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "stdpads:R_0805"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37b85a00-6077-474f-9d76-377ff3a52393")
+		)
+		(pin "2"
+			(uuid "fe05f8b1-89da-4c25-a2aa-567660c98b6f")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_ALT")
+		(at 156.21 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfa437f0-dca0-4992-b09c-84c66d9904f8")
+		(property "Reference" "D4"
+			(at 157.988 108.0516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Amber"
+			(at 157.988 110.363 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "stdpads:LED_0805"
+			(at 156.21 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C284932"
+			(at 156.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4af24de0-5fbd-40ef-9878-e43ef25e0ca4")
+		)
+		(pin "2"
+			(uuid "67e3e774-2f00-4253-b9cd-e420a38ea3ba")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea1f935a-119d-4527-a30c-89cb9c906546")
+		(property "Reference" "#PWR032"
+			(at 156.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e23435c-4bcc-4f43-982f-fcb9af99f248")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 53.34 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffd1e199-80b2-4061-bad7-3669fb8973e0")
+		(property "Reference" "#PWR024"
+			(at 53.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 53.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ea0b003-8446-4ed6-87ac-80c9e5810841")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 143.51 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffeb2245-1df1-4c06-83dc-edb263935e59")
+		(property "Reference" "R17"
+			(at 143.51 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 143.51 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "stdpads:R_0805"
+			(at 143.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 143.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74c07f66-8c11-4fc3-adc0-88fdbb62231e")
+		)
+		(pin "2"
+			(uuid "d9ea24c1-9e14-4df1-8237-600197ce1bbc")
+		)
+		(instances
+			(project "RAM128"
+				(path "/b0906e10-2fbc-4309-a8b4-6fc4cd1a5490/3559fc91-c32c-41f2-b7a9-252ed1808f49"
+					(reference "R17")
 					(unit 1)
 				)
 			)
