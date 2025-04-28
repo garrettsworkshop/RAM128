@@ -7347,7 +7347,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 138.43 119.38 0)
+		(at 102.87 132.08 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7355,7 +7355,7 @@
 		(dnp no)
 		(uuid "0e894252-2731-4c96-acd2-a1763778eb19")
 		(property "Reference" "U9"
-			(at 138.43 119.38 0)
+			(at 102.87 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7363,7 +7363,7 @@
 			)
 		)
 		(property "Value" "74AHCT08PW"
-			(at 138.43 114.3 0)
+			(at 102.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +7371,7 @@
 			)
 		)
 		(property "Footprint" "stdpads:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 138.43 119.38 0)
+			(at 102.87 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7380,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 138.43 119.38 0)
+			(at 102.87 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,7 +7389,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 119.38 0)
+			(at 102.87 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7398,7 +7398,7 @@
 			)
 		)
 		(property "LCSC Part" "C155175"
-			(at 138.43 119.38 0)
+			(at 102.87 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11463,7 +11463,8 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 201.93 16.51 0)
+		(at 102.87 142.24 0)
+		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11471,7 +11472,7 @@
 		(dnp no)
 		(uuid "bad7de99-a93f-4f22-85e3-7de90a23fae2")
 		(property "Reference" "U12"
-			(at 201.93 16.51 0)
+			(at 102.87 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11479,7 +11480,7 @@
 			)
 		)
 		(property "Value" "74AHCT32PW"
-			(at 201.93 11.43 0)
+			(at 102.87 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11487,7 +11488,7 @@
 			)
 		)
 		(property "Footprint" "stdpads:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 201.93 16.51 0)
+			(at 102.87 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11496,7 +11497,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 201.93 16.51 0)
+			(at 102.87 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11505,7 +11506,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 16.51 0)
+			(at 102.87 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11514,7 +11515,7 @@
 			)
 		)
 		(property "LCSC Part" "C129435"
-			(at 201.93 16.51 0)
+			(at 102.87 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12344,7 +12345,8 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 102.87 142.24 0)
+		(at 201.93 16.51 0)
+		(mirror x)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12352,7 +12354,7 @@
 		(dnp no)
 		(uuid "e1a6871b-ab4d-4dce-965f-b1cff1cec96e")
 		(property "Reference" "U12"
-			(at 102.87 142.24 0)
+			(at 201.93 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12360,7 +12362,7 @@
 			)
 		)
 		(property "Value" "74AHCT32PW"
-			(at 102.87 137.16 0)
+			(at 201.93 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12368,7 +12370,7 @@
 			)
 		)
 		(property "Footprint" "stdpads:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 102.87 142.24 0)
+			(at 201.93 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12377,7 +12379,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 102.87 142.24 0)
+			(at 201.93 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12386,7 +12388,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 142.24 0)
+			(at 201.93 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12395,7 +12397,7 @@
 			)
 		)
 		(property "LCSC Part" "C129435"
-			(at 102.87 142.24 0)
+			(at 201.93 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12456,7 +12458,8 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 102.87 132.08 0)
+		(at 138.43 119.38 0)
+		(mirror x)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12464,7 +12467,7 @@
 		(dnp no)
 		(uuid "e83925bf-4e1a-48b6-97bc-da3f05505113")
 		(property "Reference" "U9"
-			(at 102.87 132.08 0)
+			(at 138.43 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12472,7 +12475,7 @@
 			)
 		)
 		(property "Value" "74AHCT08PW"
-			(at 102.87 127 0)
+			(at 138.43 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12480,7 +12483,7 @@
 			)
 		)
 		(property "Footprint" "stdpads:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 102.87 132.08 0)
+			(at 138.43 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12489,7 +12492,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 102.87 132.08 0)
+			(at 138.43 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12498,7 +12501,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 132.08 0)
+			(at 138.43 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12507,7 +12510,7 @@
 			)
 		)
 		(property "LCSC Part" "C155175"
-			(at 102.87 132.08 0)
+			(at 138.43 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
